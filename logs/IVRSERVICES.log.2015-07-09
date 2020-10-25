@@ -1,0 +1,180 @@
+[2015Jul09 10:39:35,853][INFO ][RTBS_ILOAS--1436454575853][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>ASMOV</Channel><System>IVR-VAL0</System><MSISDN>584127518801</MSISDN><Offer_Type>SMS</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul09 10:39:35,868][DEBUG][RTBS_ILOAS--1436454575853][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>SMS</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:35,870][DEBUG][RTBS_ILOAS--1436454575853][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>SMS</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:35,872][DEBUG][RTBS_ILOAS--1436454575853][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Jul09 10:39:35,874][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Recibiendo channel: ASMOV]
+[2015Jul09 10:39:35,875][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul09 10:39:35,876][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Recibiendo msisdn: 584127518801]
+[2015Jul09 10:39:35,878][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Recibiendo offerType: SMS]
+[2015Jul09 10:39:35,879][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][createdRequest:7]
+[2015Jul09 10:39:35,880][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul09 10:39:35,897][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul09 10:39:35,913][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][CachedCcws:34]
+[2015Jul09 10:39:36,239][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ subscriberCore:1920.116]
+[2015Jul09 10:39:36,240][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:327]
+[2015Jul09 10:39:36,241][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul09 10:39:36,243][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:36,244][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:36,256][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul09 10:39:36,262][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul09 10:39:36,264][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ getOffersAsStringCollection:23]
+[2015Jul09 10:39:36,265][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Jul09 10:39:36,266][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul09 10:39:36,267][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ getCache:3]
+[2015Jul09 10:39:36,293][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul09 10:39:36,295][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ getCosByName:28]
+[2015Jul09 10:39:36,296][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:36,298][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Jul09 10:39:36,299][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:36,300][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:36,307][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:36,313][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:36,314][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Paso 6- offersNoIVR: null]
+[2015Jul09 10:39:36,315][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:17]
+[2015Jul09 10:39:36,317][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:36,318][DEBUG][RTBS_ILOAS-584127518801-1436454575853][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Jul09 10:39:37,097][INFO ][RTBS_ILOAS--1436454577097][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>ASMOV</Channel><System>IVR-VAL0</System><MSISDN>584127518801</MSISDN><Offer_Type>PACKAGE</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul09 10:39:37,100][DEBUG][RTBS_ILOAS--1436454577097][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:37,102][DEBUG][RTBS_ILOAS--1436454577097][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:37,105][DEBUG][RTBS_ILOAS--1436454577097][debug RtbsIloas.java:82][ Inicializando variables locales:2]
+[2015Jul09 10:39:37,106][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Recibiendo channel: ASMOV]
+[2015Jul09 10:39:37,107][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul09 10:39:37,109][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Recibiendo msisdn: 584127518801]
+[2015Jul09 10:39:37,110][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Recibiendo offerType: PACKAGE]
+[2015Jul09 10:39:37,111][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][createdRequest:6]
+[2015Jul09 10:39:37,112][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul09 10:39:37,130][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul09 10:39:37,148][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][CachedCcws:37]
+[2015Jul09 10:39:37,502][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ subscriberCore:1920.116]
+[2015Jul09 10:39:37,504][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:356]
+[2015Jul09 10:39:37,505][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul09 10:39:37,506][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:37,508][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:37,515][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul09 10:39:37,520][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul09 10:39:37,522][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ getOffersAsStringCollection:17]
+[2015Jul09 10:39:37,523][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Jul09 10:39:37,524][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul09 10:39:37,526][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ getCache:4]
+[2015Jul09 10:39:37,551][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul09 10:39:37,553][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ getCosByName:27]
+[2015Jul09 10:39:37,555][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:37,556][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Jul09 10:39:37,557][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:37,558][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:37,566][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:37,571][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:37,573][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Paso 6- offersNoIVR: null]
+[2015Jul09 10:39:37,574][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:18]
+[2015Jul09 10:39:37,575][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:37,576][DEBUG][RTBS_ILOAS-584127518801-1436454577097][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):2]
+[2015Jul09 10:39:38,354][INFO ][RTBS_ILOAS--1436454578354][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>ASMOV</Channel><System>IVR-VAL0</System><MSISDN>584127518801</MSISDN><Offer_Type>SECONDS</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul09 10:39:38,357][DEBUG][RTBS_ILOAS--1436454578354][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>SECONDS</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:38,359][DEBUG][RTBS_ILOAS--1436454578354][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>SECONDS</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:38,361][DEBUG][RTBS_ILOAS--1436454578354][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Jul09 10:39:38,363][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Recibiendo channel: ASMOV]
+[2015Jul09 10:39:38,364][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul09 10:39:38,365][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Recibiendo msisdn: 584127518801]
+[2015Jul09 10:39:38,367][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Recibiendo offerType: SECONDS]
+[2015Jul09 10:39:38,368][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][createdRequest:7]
+[2015Jul09 10:39:38,369][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul09 10:39:38,386][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul09 10:39:38,402][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][CachedCcws:34]
+[2015Jul09 10:39:38,727][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ subscriberCore:1920.116]
+[2015Jul09 10:39:38,729][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:327]
+[2015Jul09 10:39:38,730][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul09 10:39:38,731][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:38,733][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:38,741][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul09 10:39:38,746][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul09 10:39:38,748][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ getOffersAsStringCollection:18]
+[2015Jul09 10:39:38,749][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Jul09 10:39:38,750][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul09 10:39:38,751][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ getCache:3]
+[2015Jul09 10:39:38,777][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul09 10:39:38,779][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ getCosByName:28]
+[2015Jul09 10:39:38,780][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:38,782][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Jul09 10:39:38,783][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:38,784][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:38,792][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:38,798][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:38,799][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Paso 6- offersNoIVR: null]
+[2015Jul09 10:39:38,800][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:18]
+[2015Jul09 10:39:38,802][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:38,803][DEBUG][RTBS_ILOAS-584127518801-1436454578354][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Jul09 10:39:39,572][INFO ][RTBS_ILOAS--1436454579572][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>ASMOV</Channel><System>IVR-VAL0</System><MSISDN>584127518801</MSISDN><Offer_Type>KB</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul09 10:39:39,575][DEBUG][RTBS_ILOAS--1436454579572][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:39,577][DEBUG][RTBS_ILOAS--1436454579572][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>ASMOV</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518801</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul09 10:39:39,579][DEBUG][RTBS_ILOAS--1436454579572][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Jul09 10:39:39,581][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Recibiendo channel: ASMOV]
+[2015Jul09 10:39:39,582][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul09 10:39:39,583][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Recibiendo msisdn: 584127518801]
+[2015Jul09 10:39:39,584][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Recibiendo offerType: KB]
+[2015Jul09 10:39:39,586][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][createdRequest:7]
+[2015Jul09 10:39:39,587][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul09 10:39:39,604][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul09 10:39:39,620][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][CachedCcws:34]
+[2015Jul09 10:39:39,932][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ subscriberCore:1920.116]
+[2015Jul09 10:39:39,933][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:313]
+[2015Jul09 10:39:39,934][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul09 10:39:39,936][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:39,937][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:39,945][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul09 10:39:39,950][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul09 10:39:39,951][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ getOffersAsStringCollection:17]
+[2015Jul09 10:39:39,952][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Jul09 10:39:39,954][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul09 10:39:39,955][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ getCache:4]
+[2015Jul09 10:39:39,981][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul09 10:39:39,982][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ getCosByName:27]
+[2015Jul09 10:39:39,984][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:39,985][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Jul09 10:39:39,986][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul09 10:39:39,988][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul09 10:39:39,995][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:40,001][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul09 10:39:40,002][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Paso 6- offersNoIVR: null]
+[2015Jul09 10:39:40,003][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:18]
+[2015Jul09 10:39:40,005][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Xcribe Full 350SMS, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 1GB, Navega Full 3GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Navega Full 1250MB, Navega Full 750MB, Todos 412, 30 Min LDI, Habla con Otros 50, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.30, Xcribe Full Bs.20, Roaming VIP, Guindate 60.000, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Xcribe Full 600SMS, Guindaito]]
+[2015Jul09 10:39:40,006][DEBUG][RTBS_ILOAS-584127518801-1436454579572][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]

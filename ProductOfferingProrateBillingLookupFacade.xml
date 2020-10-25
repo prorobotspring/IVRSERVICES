@@ -1,0 +1,7 @@
+<ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>${msisdn}</msisdn>
+	<ProductOffering>
+		<productType>${productType}</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>

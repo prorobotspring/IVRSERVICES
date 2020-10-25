@@ -1,0 +1,278 @@
+[2014Dec04 16:03:59,122][INFO ][1417725239122][service RtbsIlcas.java:47][INICIO de solicitud ILCAS]
+[2014Dec04 16:03:59,133][INFO ][RTBS_ILCAS--1417725239122][info RtbsIlcas.java:114][ _I execute:<RTBS_ILCAS_IN><Channel>IVR</Channel><System>IVR-CCS1</System><MSISDN>584127518801</MSISDN></RTBS_ILCAS_IN>]
+[2014Dec04 16:03:59,150][DEBUG][RTBS_ILCAS--1417725239122][debug RtbsIlcas.java:109][ _I getRtbsIlcas:]
+[2014Dec04 16:03:59,151][DEBUG][RTBS_ILCAS--1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: declarated:0]
+[2014Dec04 16:03:59,153][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo channel: IVR]
+[2014Dec04 16:03:59,154][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo system: IVR-CCS1]
+[2014Dec04 16:03:59,155][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo msisdn: 584127518801]
+[2014Dec04 16:03:59,157][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: createdRequest:6]
+[2014Dec04 16:03:59,158][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2014Dec04 16:03:59,184][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2014Dec04 16:03:59,201][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: CachedCcws:44]
+[2014Dec04 16:03:59,202][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: SubscribeRetrieve584127518801]
+[2014Dec04 16:03:59,609][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: SubscribeRetrieve.Core:1610.833341]
+[2014Dec04 16:03:59,610][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][ _M getRtbsIlcas: retrieveSubscriberWithIdentityNoHistory:409]
+[2014Dec04 16:03:59,611][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: getCache:1]
+[2014Dec04 16:03:59,613][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: connectionObteined:2]
+[2014Dec04 16:03:59,614][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsSpcr.java:44][ _I getUnAvailableCOSlistByChannel:]
+[2014Dec04 16:03:59,615][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2014Dec04 16:03:59,616][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2014Dec04 16:03:59,624][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsSpcr.java:44][ _I getDBUnAvailableCOSlistByChannel:]
+[2014Dec04 16:03:59,636][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsSpcr.java:44][ _E getDBUnAvailableCOSlistByChannel:]
+[2014Dec04 16:03:59,637][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsSpcr.java:44][ _E getUnAvailableCOSlistByChannel:]
+[2014Dec04 16:03:59,639][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: getUnAvailableCOSlistByChannel:26]
+[2014Dec04 16:03:59,640][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: getUnAvailableCOSlistByChannel:[A tu Alcance 60, A tu Alcance 60 ZF, BAM 1250, BAM 1250 ZF, BAM 2000, BAM 2000 ZF, BAM 3G 10GB, BAM 3G 10GB ZF, BAM 3G 1GB ZF, BAM 3G 2GB, BAM 3G 2GB ZF, BAM 3G 3GB, BAM 3G 3GB ZF, BAM 3G Avanzado, BAM 3G Avanzado ZF, BAM 3G Eventual, BAM 3G Eventual ZF, BAM 3G Experto, BAM 3G Experto ZF, BAM 3G Frecuente, BAM 3G Frecuente ZF, BAM 3G Mega, BAM 3G Mega ZF, BAM 3G Moderado, BAM 3G Moderado ZF, BAM 3G Super, BAM 3G Super ZF, BAM 550, BAM 550 ZF, BAM 750, BAM 750 ZF, BlackBerry 50MB, BlackBerry 50MB ZF, BlackBerry Ilimitado, BlackBerry Ilimitado ZF, BlackBerry Social, BlackBerry Social ZF, CDLL, CDLL ZF, Calling Card, Dia, Dia ZF, Empresarial 18000, Empresarial 18000 ZF, Empresarial 48000, Empresarial 48000 ZF, Empresarial 87000, Empresarial 87000 ZF, Fijo Control Plus, Fijo Control Plus ZF, Fijo Control Super, Fijo Control Super ZF, Gremial, Gremial ZF, Hogar 412, Hogar 412 Plus, Hogar 412 Plus ZF, Hogar 412 ZF, INTER, Microempresa Control, Microempresa Control ZF, Nexo 1, Nexo 1 ZF, Nexo 2, Nexo 2 ZF, Plan Anulacion BAM, Plan Anulacion BAM ZF, Plan Anulacion Fija, Plan Anulacion Fija ZF, Plan Anulacion Movil, Plan Anulacion Movil ZF, Plan BAM 3G 1GB, Platinum Control, Platinum Control ZF, Plus Control, Plus Control ZF, Pre Activo BAM, Pre Activo BAM ZF, Pre Activo Fija, Pre Activo Fija ZF, Pre Activo Movil, Pre Activo Movil ZF, Premium Control, Premium Control ZF, Prueba Ciclo de vida, Radicall Plus 3G, Radicall Plus 3G ZF, Radicall Pruebas, Radicall Pruebas Prod, Radicall Regional, Radicall Regional ZF, Small Control, Small Control ZF, Social, Super Control, Super Control ZF, Super Pegado 200, Super Pegado 200 ZF, Super Pegado 3000 Dist, Super Pegado 3000 Dist ZF, Super Pegado 400, Super Pegado 400 ZF, Super Pegado Ilimitado, Super Pegado Ilimitado ZF, Tarificador, Tarificador ZF, Telefonia Publica, iPhone Avanzado, iPhone Avanzado ZF, iPhone Eventual, iPhone Eventual ZF]]
+[2014Dec04 16:03:59,642][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: ConnectionClosed:3]
+[2014Dec04 16:03:59,643][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: getCosList:1]
+[2014Dec04 16:03:59,648][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: cosList:[{Tarificador - CHARGES: {}}, {Tarificador ZF - CHARGES: {}}, {CDLL - CHARGES: {}}, {CDLL ZF - CHARGES: {}}, {Cobertura - CHARGES: {RB=35.0}}, {Cobertura ZF - CHARGES: {RB=31.25}}, {Habla Sin Parar - CHARGES: {SR=0.0, RB=84.999992}}, {Super Pegado 50 ZF - CHARGES: {RB=43.75}}, {Super Pegado 100 ZF - CHARGES: {RB=71.42857}}, {Gremial ZF - CHARGES: {RB=71.42857}}, {Nexo 2 - CHARGES: {RB=70.0}}, {Nexo 2 ZF - CHARGES: {RB=62.5}}, {Rumba 412 ZF - CHARGES: {RB=16.07142}}, {Super Pegado 1200 ZF - CHARGES: {RB=273.21428}}, {Super Pegado 200 ZF - CHARGES: {RB=98.21428}}, {Super Pegado 600 ZF - CHARGES: {SR=0.0, RB=175.0}}, {Super Pegado Ilimitado ZF - CHARGES: {RB=525.0}}, {Gremial - CHARGES: {RB=79.9999984}}, {Super Pegado 200 - CHARGES: {RB=109.99999360000001}}, {Radicall Plus ZF - CHARGES: {}}, {Super Pegado Ilimitado - CHARGES: {RB=588.0}}, {Super Pegado 1200 - CHARGES: {RB=305.9999936}}, {Super Pegado 100 - CHARGES: {RB=79.9999984}}, {Rumba 412 - CHARGES: {RB=17.9999904}}, {Super Pegado 600 - CHARGES: {SR=0.0, RB=196.00000000000003}}, {Super Pegado 50 - CHARGES: {RB=49.00000000000001}}, {Radicall Plus - CHARGES: {}}, {Habla Sin Parar ZF - CHARGES: {SR=0.0, RB=75.89285}}, {Microempresa Control - CHARGES: {}}, {Microempresa Control ZF - CHARGES: {}}, {Plus Control - CHARGES: {}}, {Super Control - CHARGES: {}}, {Plus Control ZF - CHARGES: {}}, {Super Control ZF - CHARGES: {}}, {Radicall Plus BAM - CHARGES: {}}, {Radicall Plus BAM ZF - CHARGES: {}}, {BAM 3G Moderado - CHARGES: {RB=242.99999360000004, P_=37.499996800000005}}, {BAM 3G Moderado ZF - CHARGES: {RB=216.96428, P_=33.48214}}, {BAM 3G Frecuente - CHARGES: {RB=329.00000000000006, P_=54.999996800000005}}, {BAM 3G Frecuente ZF - CHARGES: {RB=293.75, P_=49.10714}}, {BAM 3G Avanzado - CHARGES: {SR=0.0, RB=402.9999904, P_=70.0}}, {BAM 3G Avanzado ZF - CHARGES: {SR=0.0, RB=359.82142, P_=62.5}}, {BAM 3G Experto - CHARGES: {RB=560.0, P_=89.9999968}}, {BAM 3G Experto ZF - CHARGES: {RB=500.0, P_=80.35714}}, {BlackBerry Ilimitado - CHARGES: {RB=485.99999840000004}}, {BlackBerry Ilimitado ZF - CHARGES: {RB=433.92857}}, {BAM 3G 10GB - CHARGES: {RB=824.9999968000001}}, {BAM 3G 10GB ZF - CHARGES: {RB=736.60714}}, {Calling Card - CHARGES: {}}, {Radicall Pruebas - CHARGES: {pr=0.0}}, {Fijo Control Plus - CHARGES: {}}, {Fijo Control Super - CHARGES: {}}, {Fijo Control Plus ZF - CHARGES: {}}, {Fijo Control Super ZF - CHARGES: {}}, {Super Pegado 3000 - CHARGES: {RB=366.99999840000004}}, {Super Pegado 3000 ZF - CHARGES: {RB=327.67857}}, {BAM 3G Eventual - CHARGES: {RB=144.9999936, P_=27.499998400000003}}, {BAM 3G Eventual ZF - CHARGES: {RB=129.46428, P_=24.55357}}, {Premium Control - CHARGES: {}}, {Platinum Control - CHARGES: {}}, {Premium Control ZF - CHARGES: {}}, {Platinum Control ZF - CHARGES: {}}, {Super Pegado 3000 Dist ZF - CHARGES: {RB=0.0}}, {Super Pegado 3000 Dist - CHARGES: {RB=0.0}}, {iPhone Eventual - CHARGES: {RB=142.9999984}}, {iPhone Eventual ZF - CHARGES: {RB=127.67857}}, {iPhone Moderado - CHARGES: {RB=207.9999936}}, {iPhone Moderado ZF - CHARGES: {RB=185.71428}}, {iPhone Avanzado - CHARGES: {RB=298.9999936}}, {iPhone Avanzado ZF - CHARGES: {RB=266.96428}}, {Telefonia Publica - CHARGES: {}}, {Social - CHARGES: {}}, {Empresarial 18000 - CHARGES: {RB=109.99999360000001}}, {Empresarial 18000 ZF - CHARGES: {RB=98.21428}}, {Empresarial 48000 - CHARGES: {RB=189.99999200000002}}, {Empresarial 48000 ZF - CHARGES: {RB=169.64285}}, {Empresarial 87000 - CHARGES: {RB=270.0000016}}, {Empresarial 87000 ZF - CHARGES: {RB=241.07143}}, {Pre Activo Movil - CHARGES: {}}, {Pre Activo Movil ZF - CHARGES: {}}, {Pre Activo BAM - CHARGES: {}}, {Pre Activo BAM ZF - CHARGES: {}}, {Pre Activo Fija - CHARGES: {}}, {Pre Activo Fija ZF - CHARGES: {}}, {INTER - CHARGES: {}}, {Inteligente 500 - CHARGES: {RB=292.9999968}}, {Inteligente 500 ZF - CHARGES: {RB=261.60714}}, {Inteligente 1000 - CHARGES: {RB=414.99999520000006}}, {Inteligente 1000 ZF - CHARGES: {RB=370.53571}}, {Inteligente 1500 - CHARGES: {RB=537.9999968000001}}, {Inteligente 1500 ZF - CHARGES: {RB=480.35714}}, {BAM 2000 - CHARGES: {RB=378.999992}}, {BAM 2000 ZF - CHARGES: {RB=338.39285}}, {Radicall Fijo - CHARGES: {}}, {Radicall Fijo ZF - CHARGES: {}}, {Fijo 412 - CHARGES: {RB=11.499992}}, {Fijo 412 ZF - CHARGES: {RB=10.26785}}, {BAM 550 - CHARGES: {RB=144.9999936}}, {BAM 750 - CHARGES: {RB=194.9999968}}, {BAM 1250 - CHARGES: {RB=242.99999360000004}}, {BAM 550 ZF - CHARGES: {RB=129.46428}}, {BAM 750 ZF - CHARGES: {RB=174.10714}}, {BAM 1250 ZF - CHARGES: {RB=216.96428}}, {Super Pegado 300 - CHARGES: {RB=134.9999952}}, {Super Pegado 300 ZF - CHARGES: {RB=120.53571}}, {Mega Control - CHARGES: {}}, {Mega Control ZF - CHARGES: {}}, {Mega Plus Control - CHARGES: {}}, {Mega Plus Control ZF - CHARGES: {}}, {Plan Anulacion Movil - CHARGES: {}}, {Plan Anulacion Movil ZF - CHARGES: {}}, {Plan Anulacion Fija - CHARGES: {}}, {Plan Anulacion Fija ZF - CHARGES: {}}, {Plan Anulacion BAM - CHARGES: {}}, {Plan Anulacion BAM ZF - CHARGES: {}}, {Super Pegado Plus 450 - CHARGES: {RB=175.00000000000003}}, {Super Pegado Plus 450ZF - CHARGES: {RB=156.25}}, {Super Pegado Plus 850 - CHARGES: {RB=264.9999968}}, {Super Pegado Plus 850ZF - CHARGES: {RB=236.60714}}, {Super Pegado Plus 1500 - CHARGES: {RB=394.99999840000004}}, {Super Pegado Plus 1500ZF - CHARGES: {RB=352.67857}}, {Internet Movil 1.5 GB - CHARGES: {RB=389.0000016000001}}, {Internet Movil 1.5 GB ZF - CHARGES: {RB=347.32143}}, {Prueba Cache - CHARGES: {Pr=13.440000000000001}}]]
+[2014Dec04 16:03:59,649][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: subscriberRetrieve.Zone:TF]
+[2014Dec04 16:03:59,651][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][*************** suscribedOffers:[Xcribe Full Bs.30]]
+[2014Dec04 16:03:59,652][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: createdFilters:9]
+[2014Dec04 16:03:59,653][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: agrupatedFilters:1]
+[2014Dec04 16:03:59,667][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: applicatedFilters:14]
+[2014Dec04 16:03:59,668][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: resultApplicatedFilters:[Nexo 2, Gremial, Super Pegado 200, Super Pegado Ilimitado, Super Pegado 1200, Super Pegado 100, Rumba 412, Super Pegado 600, Super Pegado 50, Radicall Plus, Microempresa Control, Plus Control, Super Control, BlackBerry Ilimitado, Radicall Pruebas, Super Pegado 3000, Premium Control, Platinum Control, Super Pegado 3000 Dist, iPhone Eventual, iPhone Moderado, iPhone Avanzado, Empresarial 18000, Empresarial 48000, Empresarial 87000, Inteligente 500, Inteligente 1000, Inteligente 1500, Super Pegado 300, Mega Control, Mega Plus Control, Super Pegado Plus 450, Super Pegado Plus 850, Super Pegado Plus 1500]]
+[2014Dec04 16:03:59,670][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: subscriberRetrieve.currentCos:Super Pegado Plus 450]
+[2014Dec04 16:03:59,671][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: beforeSubstract:[Nexo 2, Gremial, Super Pegado 200, Super Pegado Ilimitado, Super Pegado 1200, Super Pegado 100, Rumba 412, Super Pegado 600, Super Pegado 50, Radicall Plus, Microempresa Control, Plus Control, Super Control, BlackBerry Ilimitado, Radicall Pruebas, Super Pegado 3000, Premium Control, Platinum Control, Super Pegado 3000 Dist, iPhone Eventual, iPhone Moderado, iPhone Avanzado, Empresarial 18000, Empresarial 48000, Empresarial 87000, Inteligente 500, Inteligente 1000, Inteligente 1500, Super Pegado 300, Mega Control, Mega Plus Control, Super Pegado Plus 450, Super Pegado Plus 850, Super Pegado Plus 1500]]
+[2014Dec04 16:03:59,673][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: afterSubstract:[Nexo 2, Gremial, Super Pegado 200, Super Pegado Ilimitado, Super Pegado 1200, Super Pegado 100, Rumba 412, Super Pegado 600, Super Pegado 50, Radicall Plus, Microempresa Control, Plus Control, Super Control, BlackBerry Ilimitado, Radicall Pruebas, Super Pegado 3000, Premium Control, Platinum Control, Super Pegado 3000 Dist, iPhone Eventual, iPhone Moderado, iPhone Avanzado, Empresarial 18000, Empresarial 48000, Empresarial 87000, Inteligente 500, Inteligente 1000, Inteligente 1500, Super Pegado 300, Mega Control, Mega Plus Control, Super Pegado Plus 450, Super Pegado Plus 850, Super Pegado Plus 1500]]
+[2014Dec04 16:03:59,674][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: applicatedSubstracted:7]
+[2014Dec04 16:03:59,676][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Saldo del GSM: 1610.833341]
+[2014Dec04 16:03:59,677][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][orderedOfferList.size(): 16]
+[2014Dec04 16:03:59,678][DEBUG][RTBS_ILCAS-584127518801-1417725239122][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Dec04 16:03:59,680][DEBUG][RTBS_ILCAS-584127518801-1417725239122][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet]
+[2014Dec04 16:03:59,681][DEBUG][RTBS_ILCAS-584127518801-1417725239122][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584127518801</msisdn>
+	<ProductOffering>
+		<productType>Plan</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2014Dec04 16:04:03,313][DEBUG][RTBS_ILCAS-584127518801-1417725239122][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2014Dec04 16:04:03,404][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Longitud del ordererCosList antes del filtro: 16]
+[2014Dec04 16:04:03,406][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 300 y Super Pegado 300]
+[2014Dec04 16:04:03,407][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,408][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:85.4999936]
+[2014Dec04 16:04:03,410][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 300]
+[2014Dec04 16:04:03,411][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado Plus 1500 y Super Pegado Plus 1500]
+[2014Dec04 16:04:03,412][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,414][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:250.1666608]
+[2014Dec04 16:04:03,415][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado Plus 1500]
+[2014Dec04 16:04:03,416][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: iPhone Moderado y iPhone Moderado]
+[2014Dec04 16:04:03,417][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,418][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:131.7333248]
+[2014Dec04 16:04:03,420][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: iPhone Moderado]
+[2014Dec04 16:04:03,421][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 100 y Super Pegado 100]
+[2014Dec04 16:04:03,422][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,423][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:50.6666608]
+[2014Dec04 16:04:03,425][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 100]
+[2014Dec04 16:04:03,426][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 600 y Super Pegado 600]
+[2014Dec04 16:04:03,427][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,429][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:124.1333296]
+[2014Dec04 16:04:03,430][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 600]
+[2014Dec04 16:04:03,431][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 3000 y Super Pegado 3000]
+[2014Dec04 16:04:03,432][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,433][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:232.4333312]
+[2014Dec04 16:04:03,435][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 3000]
+[2014Dec04 16:04:03,436][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Mega Plus Control y Mega Plus Control]
+[2014Dec04 16:04:03,437][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][No se aplica prorrateo para este plan: Mega Plus Control]
+[2014Dec04 16:04:03,438][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Radicall Plus y Radicall Plus]
+[2014Dec04 16:04:03,440][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][No se aplica prorrateo para este plan: Radicall Plus]
+[2014Dec04 16:04:03,441][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 50 y Super Pegado 50]
+[2014Dec04 16:04:03,442][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,444][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:31.033329600000002]
+[2014Dec04 16:04:03,445][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 50]
+[2014Dec04 16:04:03,446][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Rumba 412 y Rumba 412]
+[2014Dec04 16:04:03,447][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,449][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:11.399998400000001]
+[2014Dec04 16:04:03,450][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Rumba 412]
+[2014Dec04 16:04:03,451][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Inteligente 1500 y Inteligente 1500]
+[2014Dec04 16:04:03,452][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,454][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:340.73333279999997]
+[2014Dec04 16:04:03,455][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Inteligente 1500]
+[2014Dec04 16:04:03,456][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado 1200 y Super Pegado 1200]
+[2014Dec04 16:04:03,457][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,459][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:193.79999519999998]
+[2014Dec04 16:04:03,460][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado 1200]
+[2014Dec04 16:04:03,461][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Super Pegado Plus 850 y Super Pegado Plus 850]
+[2014Dec04 16:04:03,462][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,464][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:167.8333328]
+[2014Dec04 16:04:03,465][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Super Pegado Plus 850]
+[2014Dec04 16:04:03,466][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Inteligente 1000 y Inteligente 1000]
+[2014Dec04 16:04:03,467][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,469][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:262.8333344]
+[2014Dec04 16:04:03,470][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Inteligente 1000]
+[2014Dec04 16:04:03,471][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Mega Control y Mega Control]
+[2014Dec04 16:04:03,472][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][No se aplica prorrateo para este plan: Mega Control]
+[2014Dec04 16:04:03,474][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Plan de la lista que coincide con el prorated: Inteligente 500 y Inteligente 500]
+[2014Dec04 16:04:03,475][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][Saldo del cliente:1610.833341]
+[2014Dec04 16:04:03,476][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Precio del cos prorrateado:185.56666239999998]
+[2014Dec04 16:04:03,477][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][Cos disponible para el saldo del cliente: Inteligente 500]
+[2014Dec04 16:04:03,479][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 300=134.9999952 ,cos2:Super Pegado Plus 1500=394.99999840000004, result=-260.00000320000004]
+[2014Dec04 16:04:03,480][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:iPhone Moderado=207.9999936, result=187.00000480000003]
+[2014Dec04 16:04:03,482][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 300=134.9999952 ,cos2:iPhone Moderado=207.9999936, result=-72.99999840000001]
+[2014Dec04 16:04:03,483][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:Super Pegado 100=79.9999984, result=315.00000000000006]
+[2014Dec04 16:04:03,485][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:iPhone Moderado=207.9999936 ,cos2:Super Pegado 100=79.9999984, result=127.99999520000001]
+[2014Dec04 16:04:03,486][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 300=134.9999952 ,cos2:Super Pegado 100=79.9999984, result=54.999996800000005]
+[2014Dec04 16:04:03,488][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 600=196.00000000000003 ,cos2:Super Pegado 3000=366.99999840000004, result=-170.9999984]
+[2014Dec04 16:04:03,489][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Mega Plus Control=0.0, result=366.99999840000004]
+[2014Dec04 16:04:03,491][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 600=196.00000000000003 ,cos2:Mega Plus Control=0.0, result=196.00000000000003]
+[2014Dec04 16:04:03,492][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Radicall Plus=0.0, result=366.99999840000004]
+[2014Dec04 16:04:03,494][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 600=196.00000000000003 ,cos2:Radicall Plus=0.0, result=196.00000000000003]
+[2014Dec04 16:04:03,495][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Mega Plus Control=0.0 ,cos2:Radicall Plus=0.0, result=0.0]
+[2014Dec04 16:04:03,496][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:Mega Plus Control=0.0, result=394.99999840000004]
+[2014Dec04 16:04:03,498][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Mega Plus Control=0.0, result=79.9999984]
+[2014Dec04 16:04:03,499][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Radicall Plus=0.0, result=79.9999984]
+[2014Dec04 16:04:03,501][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Super Pegado 600=196.00000000000003, result=-116.00000160000003]
+[2014Dec04 16:04:03,502][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 300=134.9999952 ,cos2:Super Pegado 600=196.00000000000003, result=-61.00000480000003]
+[2014Dec04 16:04:03,504][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:iPhone Moderado=207.9999936 ,cos2:Super Pegado 600=196.00000000000003, result=11.999993599999982]
+[2014Dec04 16:04:03,505][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:iPhone Moderado=207.9999936 ,cos2:Super Pegado 3000=366.99999840000004, result=-159.00000480000003]
+[2014Dec04 16:04:03,507][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:Super Pegado 3000=366.99999840000004, result=28.0]
+[2014Dec04 16:04:03,508][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 50=49.00000000000001 ,cos2:Rumba 412=17.9999904, result=31.000009600000006]
+[2014Dec04 16:04:03,509][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 50=49.00000000000001 ,cos2:Inteligente 1500=537.9999968000001, result=-488.9999968000001]
+[2014Dec04 16:04:03,511][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Inteligente 1500=537.9999968000001 ,cos2:Super Pegado 1200=305.9999936, result=232.0000032000001]
+[2014Dec04 16:04:03,512][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 50=49.00000000000001 ,cos2:Super Pegado 1200=305.9999936, result=-256.9999936]
+[2014Dec04 16:04:03,514][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 850=264.9999968 ,cos2:Inteligente 1000=414.99999520000006, result=-149.99999840000004]
+[2014Dec04 16:04:03,515][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Inteligente 1000=414.99999520000006 ,cos2:Mega Control=0.0, result=414.99999520000006]
+[2014Dec04 16:04:03,517][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 850=264.9999968 ,cos2:Mega Control=0.0, result=264.9999968]
+[2014Dec04 16:04:03,518][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Inteligente 1000=414.99999520000006 ,cos2:Inteligente 500=292.9999968, result=121.99999840000004]
+[2014Dec04 16:04:03,520][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 850=264.9999968 ,cos2:Inteligente 500=292.9999968, result=-28.0]
+[2014Dec04 16:04:03,521][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Inteligente 1500=537.9999968000001 ,cos2:Mega Control=0.0, result=537.9999968000001]
+[2014Dec04 16:04:03,523][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Rumba 412=17.9999904 ,cos2:Mega Control=0.0, result=17.9999904]
+[2014Dec04 16:04:03,524][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Rumba 412=17.9999904 ,cos2:Super Pegado Plus 850=264.9999968, result=-247.00000640000002]
+[2014Dec04 16:04:03,525][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 50=49.00000000000001 ,cos2:Super Pegado Plus 850=264.9999968, result=-215.99999680000002]
+[2014Dec04 16:04:03,527][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 1200=305.9999936 ,cos2:Super Pegado Plus 850=264.9999968, result=40.99999679999996]
+[2014Dec04 16:04:03,528][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 1200=305.9999936 ,cos2:Inteligente 500=292.9999968, result=12.999996799999963]
+[2014Dec04 16:04:03,530][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 1200=305.9999936 ,cos2:Inteligente 1000=414.99999520000006, result=-109.00000160000008]
+[2014Dec04 16:04:03,531][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Inteligente 1500=537.9999968000001 ,cos2:Inteligente 1000=414.99999520000006, result=123.00000160000002]
+[2014Dec04 16:04:03,533][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:Mega Control=0.0, result=394.99999840000004]
+[2014Dec04 16:04:03,534][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Mega Plus Control=0.0 ,cos2:Mega Control=0.0, result=0.0]
+[2014Dec04 16:04:03,535][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Radicall Plus=0.0 ,cos2:Mega Control=0.0, result=0.0]
+[2014Dec04 16:04:03,537][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Mega Control=0.0, result=79.9999984]
+[2014Dec04 16:04:03,538][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Rumba 412=17.9999904, result=62.000007999999994]
+[2014Dec04 16:04:03,540][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Super Pegado 50=49.00000000000001, result=30.99999839999999]
+[2014Dec04 16:04:03,541][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 100=79.9999984 ,cos2:Super Pegado Plus 850=264.9999968, result=-184.99999840000004]
+[2014Dec04 16:04:03,542][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 300=134.9999952 ,cos2:Super Pegado Plus 850=264.9999968, result=-130.00000160000002]
+[2014Dec04 16:04:03,544][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 600=196.00000000000003 ,cos2:Super Pegado Plus 850=264.9999968, result=-68.99999679999999]
+[2014Dec04 16:04:03,545][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:iPhone Moderado=207.9999936 ,cos2:Super Pegado Plus 850=264.9999968, result=-57.00000320000001]
+[2014Dec04 16:04:03,547][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Super Pegado Plus 850=264.9999968, result=102.00000160000002]
+[2014Dec04 16:04:03,548][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Inteligente 500=292.9999968, result=74.00000160000002]
+[2014Dec04 16:04:03,550][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Super Pegado 1200=305.9999936, result=61.000004800000056]
+[2014Dec04 16:04:03,551][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado 3000=366.99999840000004 ,cos2:Inteligente 1000=414.99999520000006, result=-47.99999680000002]
+[2014Dec04 16:04:03,552][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug ByCoreCosComparator.java:19][ _M Compare: cos1:Super Pegado Plus 1500=394.99999840000004 ,cos2:Inteligente 1000=414.99999520000006, result=-19.99999680000002]
+[2014Dec04 16:04:03,554][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: orderedCosList:[Mega Plus Control, Radicall Plus, Mega Control, Rumba 412, Super Pegado 50, Super Pegado 100, Super Pegado 300, Super Pegado 600, iPhone Moderado, Super Pegado Plus 850, Inteligente 500, Super Pegado 1200, Super Pegado 3000, Super Pegado Plus 1500, Inteligente 1000, Inteligente 1500]]
+[2014Dec04 16:04:03,555][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: cosListSubstracted:3881]
+[2014Dec04 16:04:03,557][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:424][Longitud del ordererCosList despues del filtro: 16]
+[2014Dec04 16:04:03,558][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Mega Plus Control]
+[2014Dec04 16:04:03,559][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Radicall Plus]
+[2014Dec04 16:04:03,560][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Mega Control]
+[2014Dec04 16:04:03,562][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Rumba 412]
+[2014Dec04 16:04:03,563][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 50]
+[2014Dec04 16:04:03,564][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 100]
+[2014Dec04 16:04:03,565][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 300]
+[2014Dec04 16:04:03,567][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 600]
+[2014Dec04 16:04:03,568][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: iPhone Moderado]
+[2014Dec04 16:04:03,569][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado Plus 850]
+[2014Dec04 16:04:03,570][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Inteligente 500]
+[2014Dec04 16:04:03,571][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 1200]
+[2014Dec04 16:04:03,573][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado 3000]
+[2014Dec04 16:04:03,574][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Super Pegado Plus 1500]
+[2014Dec04 16:04:03,575][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Inteligente 1000]
+[2014Dec04 16:04:03,576][INFO ][RTBS_ILCAS-584127518801-1417725239122][getRtbsIlcas RtbsIlcas.java:430][cosName disponible: Inteligente 1500]
+[2014Dec04 16:04:03,578][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _M getRtbsIlcas: createdResponse:23]
+[2014Dec04 16:04:03,579][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][ _E getRtbsIlcas:4428 | freeMemory: 987083816]
+[2014Dec04 16:04:03,580][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsIlcas.java:114][ _E getRtbsIlcas: AvailableCosList:[Mega Plus Control, Radicall Plus, Mega Control, Rumba 412, Super Pegado 50, Super Pegado 100, Super Pegado 300, Super Pegado 600, iPhone Moderado, Super Pegado Plus 850, Inteligente 500, Super Pegado 1200, Super Pegado 3000, Super Pegado Plus 1500, Inteligente 1000, Inteligente 1500]]
+[2014Dec04 16:04:03,583][DEBUG][RTBS_ILCAS-584127518801-1417725239122][debug RtbsIlcas.java:109][ _E execute:<RTBS_ILCAS_OUT xmlns="http://integra.la/digitel/ivr/rtbsIlcas/parameter">
+  <COS_Service>
+    <COS_Activate>
+      <cosName>Mega Plus Control</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Radicall Plus</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Mega Control</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Rumba 412</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 50</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 100</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 300</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 600</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>iPhone Moderado</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado Plus 850</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Inteligente 500</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 1200</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado 3000</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Super Pegado Plus 1500</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Inteligente 1000</cosName>
+    </COS_Activate>
+    <COS_Activate>
+      <cosName>Inteligente 1500</cosName>
+    </COS_Activate>
+  </COS_Service>
+  <OperationMessage>
+    <Code>RTBS_ILCAS-OM0001</Code>
+    <Message>Operacion ejecutada de forma exitosa</Message>
+  </OperationMessage>
+</RTBS_ILCAS_OUT>]
+[2014Dec04 16:04:03,587][INFO ][RTBS_ILCAS-584127518801-1417725239122][service RtbsIlcas.java:64][FIN de solicitud ILCAS]
+[2014Dec04 16:04:04,399][INFO ][RTBS_ILCAS-584127518801-1417725239122][info RtbsLods.java:111][_I execute( String (<RTBS_LODS_IN><Channel>IVR</Channel><System>IVR-CCS1</System><MSISDN>584127518801</MSISDN></RTBS_LODS_IN>)]
+[2014Dec04 16:04:04,403][DEBUG][RTBS_LODS--1417725244399][debug RtbsLods.java:106][getRtbsLods( <RTBS_LODS_IN xmlns="http://integra.la/digitel/ivr/rtbsLods/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-CCS1</System>
+  <MSISDN>584127518801</MSISDN>
+</RTBS_LODS_IN> )]
+[2014Dec04 16:04:04,405][DEBUG][RTBS_LODS--1417725244399][debug RtbsLods.java:106][ Inicializando variables locales:0]
+[2014Dec04 16:04:04,406][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][Recibiendo channel: IVR]
+[2014Dec04 16:04:04,407][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][Recibiendo system: IVR-CCS1]
+[2014Dec04 16:04:04,409][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][Recibiendo msisdn: 584127518801]
+[2014Dec04 16:04:04,410][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][createdRequest:5]
+[2014Dec04 16:04:04,412][DEBUG][RTBS_LODS-584127518801-1417725244399][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2014Dec04 16:04:04,429][DEBUG][RTBS_LODS-584127518801-1417725244399][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2014Dec04 16:04:04,445][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][CachedCcws:35]
+[2014Dec04 16:04:04,762][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][ subscriberCore:1610.833341]
+[2014Dec04 16:04:04,764][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][retrieveSubscriberWithIdentityNoHistory:318]
+[2014Dec04 16:04:04,765][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][ getCOSName:1]
+[2014Dec04 16:04:04,766][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][ getOffersAsStringCollection:1]
+[2014Dec04 16:04:04,767][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][Paso 3- cosName: Super Pegado Plus 450- subscriberOffers:[Xcribe Full Bs.30]]
+[2014Dec04 16:04:04,768][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][ getCache:2]
+[2014Dec04 16:04:04,770][DEBUG][RTBS_LODS-584127518801-1417725244399][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2014Dec04 16:04:04,771][DEBUG][RTBS_LODS-584127518801-1417725244399][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:F_SEC_M2MF_ON-NET]
+[2014Dec04 16:04:04,772][DEBUG][RTBS_LODS-584127518801-1417725244399][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.30 ,balanceType:5 ,resultingType:PACKAGE]
+[2014Dec04 16:04:04,774][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][getOfferDefinitions:6]
+[2014Dec04 16:04:04,775][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][ createdResponse:1]
+[2014Dec04 16:04:04,777][INFO ][RTBS_LODS-584127518801-1417725244399][info RtbsLods.java:111][ getRtbsIloas :371 | freeMemory: 1016033656]
+[2014Dec04 16:04:04,778][INFO ][RTBS_LODS-584127518801-1417725244399][info RtbsLods.java:111][ _E [com.comverse_in.prepaid.ccws.Offer@dce3c437]]
+[2014Dec04 16:04:04,780][DEBUG][RTBS_LODS-584127518801-1417725244399][debug RtbsLods.java:106][_E execute():<RTBS_LODS_OUT xmlns="http://integra.la/digitel/ivr/rtbsLods/parameter">
+  <Offers>
+    <Offer>
+      <Name>Xcribe Full Bs.30</Name>
+      <ID>320.0</ID>
+    </Offer>
+  </Offers>
+  <OperationMessage>
+    <Code>RTBS_LODS-OM0001</Code>
+    <Message>Operacion ejecutada de forma exitosa</Message>
+  </OperationMessage>
+</RTBS_LODS_OUT>]

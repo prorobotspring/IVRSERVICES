@@ -1,0 +1,483 @@
+[2015Mar06 14:41:20,058][INFO ][RTBS_ILOAS--1425669080058][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>IVR</Channel><System>IVR</System><MSISDN>584122592444</MSISDN><Offer_Type>PACKAGE</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Mar06 14:41:20,093][DEBUG][RTBS_ILOAS--1425669080058][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR</System>
+  <MSISDN>584122592444</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Mar06 14:41:20,095][DEBUG][RTBS_ILOAS--1425669080058][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR</System>
+  <MSISDN>584122592444</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Mar06 14:41:20,097][DEBUG][RTBS_ILOAS--1425669080058][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Mar06 14:41:20,099][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Recibiendo channel: IVR]
+[2015Mar06 14:41:20,100][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Recibiendo system: IVR]
+[2015Mar06 14:41:20,102][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Recibiendo msisdn: 584122592444]
+[2015Mar06 14:41:20,103][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Recibiendo offerType: PACKAGE]
+[2015Mar06 14:41:20,105][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][createdRequest:8]
+[2015Mar06 14:41:20,106][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Mar06 14:41:20,141][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Mar06 14:41:20,162][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][CachedCcws:57]
+[2015Mar06 14:41:20,534][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ subscriberCore:300.0]
+[2015Mar06 14:41:20,536][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:374]
+[2015Mar06 14:41:20,537][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Mar06 14:41:20,538][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Mar06 14:41:20,539][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Mar06 14:41:20,564][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Mar06 14:41:20,663][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Mar06 14:41:20,665][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ getOffersAsStringCollection:128]
+[2015Mar06 14:41:20,667][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Mar06 14:41:20,668][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Mar06 14:41:20,670][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ getCache:5]
+[2015Mar06 14:41:20,699][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@4bd87681]
+[2015Mar06 14:41:20,701][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ getCosByName:31]
+[2015Mar06 14:41:20,703][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 3GB, Navega Full 1GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Roaming VIP, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Guindaito]]
+[2015Mar06 14:41:20,704][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Mar06 14:41:20,706][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Mar06 14:41:20,707][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Mar06 14:41:20,715][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Mar06 14:41:20,721][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Mar06 14:41:20,723][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Paso 6- offersNoIVR: [Blackberry 10, Blackberry 10 ZF, Blackberry 50, Blackberry BES 1GB, Blackberry BES 1GB ZF, Blackberry Basico, Blackberry Basico ZF, Blackberry Ilimitado, Blackberry Ilimitado ZF, Mix 412 ZF, Music Ton, Navega Full 50MB, Navega Full 5MB, Navega Full 5MB ZF, Navega Full Ilimitado, Navega Full Ilimitado ZF, Nokia Messaging, Nokia Messaging ZF, Prom Alcance30, Prom Alcance60, Prom Plan 1200, Prom Plan 200, Prom Plan 600, Prom Plan BB50MB, Prom Plan Cobertura, Prueba Ciclo de vida, Roaming VIP, Roaming VIP ZF, Ubica2 412, Ubica2 412 ZF, Xcribe Full 400 Fija, Xcribe Full 400 Fija ZF, Xcribe Full Bs.15, Xcribe Full Bs.F.20 Fija, Xcribe Ilimitado, Xcribe Ilimitado ZF]]
+[2015Mar06 14:41:20,725][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:21]
+[2015Mar06 14:41:20,726][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 3GB, Navega Full 1GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Roaming VIP, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Guindaito]]
+[2015Mar06 14:41:20,728][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Mar06 14:41:20,729][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Restando los servicios que no ofrece el IVR: [Asistente Hogar 412, Navega Full 550MB, Navega Full 3GB, Navega Full 1GB, Guindate 30.000, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Navega Full 100MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Navega Full 500MB, Habla con Otros 100, Guindaito]]
+[2015Mar06 14:41:20,731][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Mar06 14:41:20,732][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,734][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,735][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindaito ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,737][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,738][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,740][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindate 30.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,742][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,743][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,745][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindate 60.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,746][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,748][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,749][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Mix 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,751][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_LDI]
+[2015Mar06 14:41:20,752][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:30 Min LDI ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:41:20,754][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,755][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:F_SEC_M2MF_ON-NET]
+[2015Mar06 14:41:20,757][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.30 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,758][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_ON-NET]
+[2015Mar06 14:41:20,760][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Ilimitado Nocturno ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:41:20,761][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Asistente Hogar 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,763][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,765][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_SEC_M2MF_ON-OFF-NET]
+[2015Mar06 14:41:20,766][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Habla con Todos ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,768][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_ON-NET]
+[2015Mar06 14:41:20,769][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Todos 412 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:41:20,771][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,772][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.20 ,balanceType:1 ,resultingType:SMS]
+[2015Mar06 14:41:20,774][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,775][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 250MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,776][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,777][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 1GB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,779][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,780][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 3GB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,781][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_OFF-NET]
+[2015Mar06 14:41:20,783][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Habla con Otros 100 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:41:20,784][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_OFF-NET]
+[2015Mar06 14:41:20,785][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Habla con Otros 50 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:41:20,787][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,788][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 500MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,789][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,791][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 100MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,792][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,793][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 550MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,795][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,796][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 750MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,797][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:41:20,799][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Navega Full 1250MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:41:20,800][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][getOfferDefinitions:69]
+[2015Mar06 14:41:20,801][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ newOfferFilterByType:1]
+[2015Mar06 14:41:20,802][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ agrupacion de filtros:1]
+[2015Mar06 14:41:20,804][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,805][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,806][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindaito ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,808][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,809][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,810][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindate 30.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,811][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,813][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,814][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Guindate 60.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,815][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,817][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:41:20,818][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Mix 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,819][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,821][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:F_SEC_M2MF_ON-NET]
+[2015Mar06 14:41:20,822][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.30 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,823][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Asistente Hogar 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,825][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:41:20,826][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_SEC_M2MF_ON-OFF-NET]
+[2015Mar06 14:41:20,827][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug OfferList.java:43][ _M generateType- offer:Habla con Todos ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:41:20,829][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Saldo del GSM:300.0]
+[2015Mar06 14:41:20,830][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][orderedOfferList.size():7]
+[2015Mar06 14:41:20,831][DEBUG][RTBS_ILOAS-584122592444-1425669080058][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Mar06 14:41:20,833][DEBUG][RTBS_ILOAS-584122592444-1425669080058][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet?]
+[2015Mar06 14:41:20,834][DEBUG][RTBS_ILOAS-584122592444-1425669080058][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584122592444</msisdn>
+	<ProductOffering>
+		<productType>Servicio</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2015Mar06 14:41:23,404][DEBUG][RTBS_ILOAS-584122592444-1425669080058][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2015Mar06 14:41:23,480][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindaito y Guindaito]
+[2015Mar06 14:41:23,482][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:17.1999968]
+[2015Mar06 14:41:23,484][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindaito]
+[2015Mar06 14:41:23,485][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindate 30.000 y Guindate 30.000]
+[2015Mar06 14:41:23,487][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:56.399996800000004]
+[2015Mar06 14:41:23,488][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindate 30.000]
+[2015Mar06 14:41:23,490][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindate 60.000 y Guindate 60.000]
+[2015Mar06 14:41:23,491][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:88.0000016]
+[2015Mar06 14:41:23,493][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindate 60.000]
+[2015Mar06 14:41:23,495][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Xcribe Full Bs.30 y Xcribe Full Bs.30]
+[2015Mar06 14:41:23,496][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:4.0000016]
+[2015Mar06 14:41:23,497][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Xcribe Full Bs.30]
+[2015Mar06 14:41:23,499][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Asistente Hogar 412 y Asistente Hogar 412]
+[2015Mar06 14:41:23,501][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:2.4000032000000004]
+[2015Mar06 14:41:23,502][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Asistente Hogar 412]
+[2015Mar06 14:41:23,504][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Asistente Hogar 412 y Asistente Hogar 412]
+[2015Mar06 14:41:23,505][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:2.4000032000000004]
+[2015Mar06 14:41:23,507][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Asistente Hogar 412]
+[2015Mar06 14:41:23,508][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Habla con Todos y Habla con Todos]
+[2015Mar06 14:41:23,510][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Precio del offer prorrateado:22.0000032]
+[2015Mar06 14:41:23,511][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][Offer disponible segun el saldo:Habla con Todos]
+[2015Mar06 14:41:23,518][DEBUG][RTBS_ILOAS-584122592444-1425669080058][<init> ByChargeOfferComparator.java:19][_E  - ByChargeOfferComparator- periodicChargeList:{RB SP PLUS 450 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e15a3949, RB SP PLUS 1500=com.comverse_in.prepaid.ccws.PeriodicCharge@536b24f1, RB SP50=com.comverse_in.prepaid.ccws.PeriodicCharge@3f4f3083, RB Xcribe Bs.15Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@bbd10fc8, P_Moderado 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c7043f1, RB Navega 750BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b4bbcc76, SRB Promo 0 BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6401074a, RB BB 100MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@625cc991, RB Navega 750BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b273a176, RB Navega Full I ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dc138299, RB Xcribe Bs.15=com.comverse_in.prepaid.ccws.PeriodicCharge@2cb1331a, RB SP PLUS 850 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9f4d87d1, RBXcribeBs.20FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@fd1aef58, RB Habla Sin Parar=com.comverse_in.prepaid.ccws.PeriodicCharge@e80cebfe, RB SP Ilimitado N=com.comverse_in.prepaid.ccws.PeriodicCharge@4991489d, RB Navega550MBCorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@df7fe64c, RB Navega 3.2GB=com.comverse_in.prepaid.ccws.PeriodicCharge@6acdd73d, RB BB PIN 50MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eb30e07e, RB Internet Movil ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a35375bf, RB Mix 412=com.comverse_in.prepaid.ccws.PeriodicCharge@f67101ac, RB SMART 500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@edda33a7, RB Navega 1.2GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e79b33c4, RB Roaming VIP ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d8b8d022, RB Xcribe Bs.20ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f223df8, RB BAM3G Frecuente=com.comverse_in.prepaid.ccws.PeriodicCharge@566a1b49, RB iPhone ModeradoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eb29681, RB Gremial ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f095f136, RB iPhone AvanzadoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b248ba8a, RB BAM3G Avanzado=com.comverse_in.prepaid.ccws.PeriodicCharge@43f4fecd, RB SP Distribuidor=com.comverse_in.prepaid.ccws.PeriodicCharge@f65b6516, RB Navega 3GB CorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aba7a913, RB N-W Basica LDN ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@38832248, RB Xcribe ilim=com.comverse_in.prepaid.ccws.PeriodicCharge@48ba5d20, RB Navega Full I=com.comverse_in.prepaid.ccws.PeriodicCharge@7e42939b, RB Ubicados 412=com.comverse_in.prepaid.ccws.PeriodicCharge@ac4b6615, RB Habla Sin PararZF=com.comverse_in.prepaid.ccws.PeriodicCharge@34c886ae, RB BAM3G Eventual=com.comverse_in.prepaid.ccws.PeriodicCharge@7b3dbe33, SRB Promo 0 Fija ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7bd8fc96, RB Ubicados 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cab2c625, RB BB 3GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@42ea9c91, RB NavegaFull500MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dcd6240b, RB BAM 550 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@be37a963, RB Navega 3GB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@4a179689, RB BB 250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@728a7f90, SRB Promo 0 Movil=com.comverse_in.prepaid.ccws.PeriodicCharge@d19e47e0, SRB Promo 0 Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@812b2c42, RB Rumba 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6f09810e, RB BB PIN 250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@150eb6f4, RB SP100 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@80236279, RB SP Ilim N Min ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@211b8de, RB BB BES 1GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9f03ae57, RB BB 500MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a16e6089, RB SP Ilimitado N ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@1d8dc31b, RB BB BES 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@61e47007, RB SP Ilim N Min=com.comverse_in.prepaid.ccws.PeriodicCharge@afe7be0e, RB Nexo 2=com.comverse_in.prepaid.ccws.PeriodicCharge@7f218f24, RB Todos 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2c5be4d8, RB BAM3G 10GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b58ce941, RB BAM3G ModeradoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bb03cddd, RB SP3000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7c933ab4, RB BB PIN 50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@39ab5254, RB BAM3G AvanzadoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f38fd2f5, RB iPhone Moderado=com.comverse_in.prepaid.ccws.PeriodicCharge@f4879bdd, RB BAM 750=com.comverse_in.prepaid.ccws.PeriodicCharge@4f5623bf, RB BAM 1250=com.comverse_in.prepaid.ccws.PeriodicCharge@c3819b19, RB Nokia MessagingZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ba560a1b, RB Navega Full 5MB=com.comverse_in.prepaid.ccws.PeriodicCharge@abac09fd, RB BB 3GB=com.comverse_in.prepaid.ccws.PeriodicCharge@4394705b, P_Avanzado 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6f88811, RB SP3000=com.comverse_in.prepaid.ccws.PeriodicCharge@4bee4ea2, RB BB Basico=com.comverse_in.prepaid.ccws.PeriodicCharge@67e380ba, RBXcribeBs.30FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2651087, RB Xcribe Bs.30ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@44aaee27, RB Navega 250BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@44277a89, RB BAM 550=com.comverse_in.prepaid.ccws.PeriodicCharge@8078fe4b, RB Navega 1250BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c5bce84a, RB BB 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@936647c7, RB Fijo 412=com.comverse_in.prepaid.ccws.PeriodicCharge@b7029910, RB Xcribe Bs.15ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2afa6cfc, RB Navega 550BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ba2101b6, RB BB 50MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@de066348, RB BAM3G Eventual ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f430007b, RB Navega550MBCorp=com.comverse_in.prepaid.ccws.PeriodicCharge@679b766, RB SP Ilimitado ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aa183418, RB Asistente 412 H=com.comverse_in.prepaid.ccws.PeriodicCharge@6f5c57c5, RB BB 50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@6c2ac432, RB SP300=com.comverse_in.prepaid.ccws.PeriodicCharge@61800196, RB iPhone EventualZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8693e99b, RB SP100=com.comverse_in.prepaid.ccws.PeriodicCharge@e2c53fe8, RB Music Ton ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@95fe958b, RB Navega Full50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@40594f53, RB SMART 1000=com.comverse_in.prepaid.ccws.PeriodicCharge@daa62750, P_Experto 50=com.comverse_in.prepaid.ccws.PeriodicCharge@70903747, RB SMART 1000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ebfca0d6, RB Internet 1.5 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@47041a00, RB BAM3G Moderado=com.comverse_in.prepaid.ccws.PeriodicCharge@7e47fea7, RB Cobertura ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8a64cc1b, RB SP200 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8e1fa094, RB SP PLUS 1500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@99612e05, RB Navega 550BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b12e8436, RB Todos 412 Min ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@796d1afd, RB NavegaFull250MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ceeaa147, RB Empresa 87000=com.comverse_in.prepaid.ccws.PeriodicCharge@7394fb4d, RB Rumba 412=com.comverse_in.prepaid.ccws.PeriodicCharge@721a8376, RB Empresa 48000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d69d801b, RB BB 250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@c96cecea, RB BAM3G FrecuenteZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a0c5d493, RB HablaOtros100=com.comverse_in.prepaid.ccws.PeriodicCharge@4e8389c2, RB SP600 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bf6662ba, RB Navega Full250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@4be7e24b, RB Nexo 2 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d85293aa, RB Guindate 60.000=com.comverse_in.prepaid.ccws.PeriodicCharge@3d20c073, P_Moderado 50=com.comverse_in.prepaid.ccws.PeriodicCharge@50840ca7, RB Navega 550MB=com.comverse_in.prepaid.ccws.PeriodicCharge@2a7b1262, P_Experto 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a27cfb11, RB Mix 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ecda9a3e, RB Navega Full 1GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cddb3219, RBXcribeBs.15FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@5a2fd85c, SRB Promo 0 BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@2ba3e0e, RB Navega 100BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a08e4faf, RB Navega Full50MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6a6959df, RB Empresa 18000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@70380539, RB BAM3G ExpertoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aaf1c753, RB Music Ton=com.comverse_in.prepaid.ccws.PeriodicCharge@a971a155, RB BB 500MB=com.comverse_in.prepaid.ccws.PeriodicCharge@397aee43, RB 30 Min LDI Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@41820571, RB Navega 100MB=com.comverse_in.prepaid.ccws.PeriodicCharge@ecf1d148, RB Navega 750MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@664853ca, RB Navega 1250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e5d1d19, RB Gremial=com.comverse_in.prepaid.ccws.PeriodicCharge@c6734638, RB Navega 1250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@ce6cf913, RB Navega 1.2GB=com.comverse_in.prepaid.ccws.PeriodicCharge@828809da, RB Navega 1GB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@657d66c4, RB BAM3G Experto=com.comverse_in.prepaid.ccws.PeriodicCharge@c11baf49, RB 30 Min LDI FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6bb8c205, RB BB 1GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8be92085, P_Eventual 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@16619591, RB BB Ilimitado ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a2588263, RB Navega Full 500MB=com.comverse_in.prepaid.ccws.PeriodicCharge@d129e25d, RB Xcribe Bs.20Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@a2d4e3ca, RB BAM 750 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@93e8224f, RB BB Plan IlimZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b18f10c2, RB SP PLUS 850=com.comverse_in.prepaid.ccws.PeriodicCharge@4b5a1d7d, RB Empresa 18000=com.comverse_in.prepaid.ccws.PeriodicCharge@8e000475, SRB Promo 0 Movil ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7f13d438, RB SP50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@1951c1eb, P_Frecuente 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@59bbba31, RB BB 100MB=com.comverse_in.prepaid.ccws.PeriodicCharge@3902023b, Prueba Cache=com.comverse_in.prepaid.ccws.PeriodicCharge@4a982b1c, RB BB Basico ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b37ecccc, RB Empresa 87000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@998c9971, pruebas=com.comverse_in.prepaid.ccws.PeriodicCharge@1e8cc244, RB BAM 2000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8b4a1d20, RB Xcribe ilim ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dcc5f232, RB Navega 250BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@67600683, RB Navega Full 5MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eda09641, RB SMART 1500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@904cd129, RB SP PLUS 450=com.comverse_in.prepaid.ccws.PeriodicCharge@9b0d75e5, RB Guindaito ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bf482f61, RB Nokia Messaging=com.comverse_in.prepaid.ccws.PeriodicCharge@c0ab0d1f, RB Fijo 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@145650, RB Navega 3.2GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@885e42bb, RB SP300 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c10952fa, RB 30 Min LDI=com.comverse_in.prepaid.ccws.PeriodicCharge@a9b7b60f, RB Guindate 30.000=com.comverse_in.prepaid.ccws.PeriodicCharge@d3de9b21, RB Roaming VIP=com.comverse_in.prepaid.ccws.PeriodicCharge@a98e2564, RB Todos 412 Min=com.comverse_in.prepaid.ccws.PeriodicCharge@793eaf85, RB Navega 1250BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@e4e96820, RB 30 Min LDI ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@86f9753d, RB Cobertura=com.comverse_in.prepaid.ccws.PeriodicCharge@46a6002b, RB SP Ilimitado=com.comverse_in.prepaid.ccws.PeriodicCharge@dd80c576, RB N-W Basica LDN=com.comverse_in.prepaid.ccws.PeriodicCharge@324fe41a, RB Internet Movil=com.comverse_in.prepaid.ccws.PeriodicCharge@39d0752f, RB BAM 1250 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8cc711d5, RB Todos 412=com.comverse_in.prepaid.ccws.PeriodicCharge@2d40ab8a, RB Navega Full 3GB=com.comverse_in.prepaid.ccws.PeriodicCharge@e08592bb, RB Navega 100MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@374576b0, RB Navega Full 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@e06f7fb7, RB Guindaito=com.comverse_in.prepaid.ccws.PeriodicCharge@d6577769, RB HablaOtros100 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cd39fdca, RB Empresa 48000=com.comverse_in.prepaid.ccws.PeriodicCharge@8572ff23, RB BB 10 MB=com.comverse_in.prepaid.ccws.PeriodicCharge@9ca7105, RB SP600=com.comverse_in.prepaid.ccws.PeriodicCharge@1bbdfdf4, RB SP1200 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@74372758, RB BB 500MB Corp ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ff231531, RB Asistente412 H ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@38a319fd, RB SP1200=com.comverse_in.prepaid.ccws.PeriodicCharge@10560356, RB Navega 100BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b1f4b0a9, RB Internet 1.5=com.comverse_in.prepaid.ccws.PeriodicCharge@dfadcb38, RB SMART 1500=com.comverse_in.prepaid.ccws.PeriodicCharge@6de606f7, RB Xcribe Bs.30=com.comverse_in.prepaid.ccws.PeriodicCharge@466008c5, RB BB 10 MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9c5dc307, RB SP200=com.comverse_in.prepaid.ccws.PeriodicCharge@e6969efa, P_Avanzado 50=com.comverse_in.prepaid.ccws.PeriodicCharge@2eedf807, RB BB Plan Ilim=com.comverse_in.prepaid.ccws.PeriodicCharge@735e9550, RB HablaOtros50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d3a463fc, RB Habla con Todos=com.comverse_in.prepaid.ccws.PeriodicCharge@6724b52c, RB BB 500MB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@524aba9b, RB iPhone Eventual=com.comverse_in.prepaid.ccws.PeriodicCharge@d0d945d5, P_Eventual 50=com.comverse_in.prepaid.ccws.PeriodicCharge@e2eabf07, RB Guindate 60.000ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ace83de1, RB BAM3G 10GB=com.comverse_in.prepaid.ccws.PeriodicCharge@c0269365, P_Frecuente 50=com.comverse_in.prepaid.ccws.PeriodicCharge@1713de67, RB Prom Plan=com.comverse_in.prepaid.ccws.PeriodicCharge@25dabcae, RB BB Ilimitado=com.comverse_in.prepaid.ccws.PeriodicCharge@97a02e5d, RB Navega 550MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6df5b40a, RB BB PIN 250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d49d6146, RB SMART 500=com.comverse_in.prepaid.ccws.PeriodicCharge@ad0d39, RB Xcribe Bs.30Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@dbc65c79, RB BAM 2000=com.comverse_in.prepaid.ccws.PeriodicCharge@1c6eb5ab, RB Navega 1GB CorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aad34712, RB Habla con TodosZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f01ff0ba, RB HablaOtros50=com.comverse_in.prepaid.ccws.PeriodicCharge@b6577c30, RB Xcribe Bs.20=com.comverse_in.prepaid.ccws.PeriodicCharge@10d84116, RB iPhone Avanzado=com.comverse_in.prepaid.ccws.PeriodicCharge@bd70d822, RB Guindate 30.000ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d9a7dbb5, RB Navega 750MB=com.comverse_in.prepaid.ccws.PeriodicCharge@2e085aa2, RB Navega Full 3GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ce29941d}]
+[2015Mar06 14:41:23,521][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Guindate 30.000): Guindate 30.000=125.89285 		==> -87.5]
+[2015Mar06 14:41:23,523][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 30.000):Guindate 30.000=125.89285 - ,	offer2(RB Guindate 60.000): Guindate 60.000=196.42857 		==> -70.53572000000001]
+[2015Mar06 14:41:23,525][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Xcribe Bs.30): Xcribe Full Bs.30=26.78571 		==> 5.357140000000001]
+[2015Mar06 14:41:23,526][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 26.78571]
+[2015Mar06 14:41:23,528][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Xcribe Bs.30):Xcribe Full Bs.30=26.78571 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 21.42857]
+[2015Mar06 14:41:23,530][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> -16.96429]
+[2015Mar06 14:41:23,531][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 60.000):Guindate 60.000=196.42857 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 191.07143000000002]
+[2015Mar06 14:41:23,533][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 33.03571]
+[2015Mar06 14:41:23,535][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Xcribe Bs.30): Xcribe Full Bs.30=26.78571 		==> 11.607140000000001]
+[2015Mar06 14:41:23,536][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Mix 412): Mix 412=32.14285 		==> 6.25]
+[2015Mar06 14:41:23,538][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> -10.714289999999998]
+[2015Mar06 14:41:23,539][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 30.000):Guindate 30.000=125.89285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> 76.78571]
+[2015Mar06 14:41:23,541][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ orderedCosList:[com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@f9e78af1, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca]]
+[2015Mar06 14:41:23,543][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][Resultado del Filtro: [com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@f9e78af1]]
+[2015Mar06 14:41:23,545][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][aplicacion de filtros:2743]
+[2015Mar06 14:41:23,547][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][ createdResponse:2]
+[2015Mar06 14:41:23,549][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][ getRtbsIloas :3453 | freeMemory: 1129380112]
+[2015Mar06 14:41:23,550][INFO ][RTBS_ILOAS-584122592444-1425669080058][info RtbsIloas.java:87][ _E [com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@f9e78af1, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca]]
+[2015Mar06 14:41:23,552][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][_E_getRtbsIloas()]
+[2015Mar06 14:41:23,555][DEBUG][RTBS_ILOAS-584122592444-1425669080058][debug RtbsIloas.java:82][_E:<RTBS_ILOAS_OUT xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Offers>
+    <Offer>
+      <offer_name>Asistente Hogar 412</offer_name>
+      <offer_ID>444.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Xcribe Full Bs.30</offer_name>
+      <offer_ID>320.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Mix 412</offer_name>
+      <offer_ID>290.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindaito</offer_name>
+      <offer_ID>282.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Habla con Todos</offer_name>
+      <offer_ID>465.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindate 30.000</offer_name>
+      <offer_ID>287.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindate 60.000</offer_name>
+      <offer_ID>288.0</offer_ID>
+    </Offer>
+  </Offers>
+  <OperationMessage>
+    <Code>RTBS_ILOAS-OM0001</Code>
+    <Message>Operacion ejecutada de forma exitosa</Message>
+  </OperationMessage>
+</RTBS_ILOAS_OUT>]
+[2015Mar06 14:53:05,349][INFO ][RTBS_ILOAS--1425669785349][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>IVR</Channel><System>IVR</System><MSISDN>584122592444</MSISDN><Offer_Type>PACKAGE</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Mar06 14:53:05,356][DEBUG][RTBS_ILOAS--1425669785349][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR</System>
+  <MSISDN>584122592444</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Mar06 14:53:05,358][DEBUG][RTBS_ILOAS--1425669785349][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR</System>
+  <MSISDN>584122592444</MSISDN>
+  <Offer_Type>PACKAGE</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Mar06 14:53:05,360][DEBUG][RTBS_ILOAS--1425669785349][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Mar06 14:53:05,362][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Recibiendo channel: IVR]
+[2015Mar06 14:53:05,363][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Recibiendo system: IVR]
+[2015Mar06 14:53:05,365][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Recibiendo msisdn: 584122592444]
+[2015Mar06 14:53:05,366][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Recibiendo offerType: PACKAGE]
+[2015Mar06 14:53:05,368][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][createdRequest:8]
+[2015Mar06 14:53:05,369][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Mar06 14:53:05,390][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Mar06 14:53:05,411][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][CachedCcws:43]
+[2015Mar06 14:53:05,753][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ subscriberCore:300.0]
+[2015Mar06 14:53:05,754][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:343]
+[2015Mar06 14:53:05,756][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Mar06 14:53:05,757][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Mar06 14:53:05,758][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Mar06 14:53:05,765][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Mar06 14:53:05,771][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Mar06 14:53:05,772][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ getOffersAsStringCollection:16]
+[2015Mar06 14:53:05,773][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Paso 3- cosName: Radicall Plus- subscriberOffers:[]]
+[2015Mar06 14:53:05,774][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Mar06 14:53:05,776][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ getCache:4]
+[2015Mar06 14:53:05,801][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@4bd87681]
+[2015Mar06 14:53:05,803][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ getCosByName:27]
+[2015Mar06 14:53:05,805][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Asistente Hogar 412, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 3GB, Navega Full 1GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Roaming VIP, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Guindaito]]
+[2015Mar06 14:53:05,806][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Mar06 14:53:05,807][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Mar06 14:53:05,809][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Mar06 14:53:05,816][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Mar06 14:53:05,821][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Mar06 14:53:05,823][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Paso 6- offersNoIVR: [Blackberry 10, Blackberry 10 ZF, Blackberry 50, Blackberry BES 1GB, Blackberry BES 1GB ZF, Blackberry Basico, Blackberry Basico ZF, Blackberry Ilimitado, Blackberry Ilimitado ZF, Mix 412 ZF, Music Ton, Navega Full 50MB, Navega Full 5MB, Navega Full 5MB ZF, Navega Full Ilimitado, Navega Full Ilimitado ZF, Nokia Messaging, Nokia Messaging ZF, Prom Alcance30, Prom Alcance60, Prom Plan 1200, Prom Plan 200, Prom Plan 600, Prom Plan BB50MB, Prom Plan Cobertura, Prueba Ciclo de vida, Roaming VIP, Roaming VIP ZF, Ubica2 412, Ubica2 412 ZF, Xcribe Full 400 Fija, Xcribe Full 400 Fija ZF, Xcribe Full Bs.15, Xcribe Full Bs.F.20 Fija, Xcribe Ilimitado, Xcribe Ilimitado ZF]]
+[2015Mar06 14:53:05,824][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:18]
+[2015Mar06 14:53:05,826][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Asistente Hogar 412, Navega Full 550MB, Xcribe Full Bs.15, Navega Full 3GB, Navega Full 1GB, Navega Full 50MB, Guindate 30.000, Xcribe Ilimitado, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full Ilimitado, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Roaming VIP, Navega Full 100MB, Navega Full 5MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Nokia Messaging, Navega Full 500MB, Habla con Otros 100, Ubica2 412, Guindaito]]
+[2015Mar06 14:53:05,827][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Mar06 14:53:05,828][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Restando los servicios que no ofrece el IVR: [Asistente Hogar 412, Navega Full 550MB, Navega Full 3GB, Navega Full 1GB, Guindate 30.000, Todos 412, Navega Full 750MB, Navega Full 1250MB, Habla con Otros 50, 30 Min LDI, Navega Full 250MB, Xcribe Full Bs.20, Xcribe Full Bs.30, Guindate 60.000, Navega Full 100MB, Ilimitado Nocturno, Habla con Todos, Mix 412, Navega Full 500MB, Habla con Otros 100, Guindaito]]
+[2015Mar06 14:53:05,830][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Mar06 14:53:05,831][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,832][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,834][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindaito ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,835][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,836][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,838][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindate 30.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,839][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,840][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,841][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindate 60.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,843][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,844][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,845][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Mix 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,847][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_LDI]
+[2015Mar06 14:53:05,848][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:30 Min LDI ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:53:05,849][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,851][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:F_SEC_M2MF_ON-NET]
+[2015Mar06 14:53:05,852][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.30 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,853][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_ON-NET]
+[2015Mar06 14:53:05,855][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Ilimitado Nocturno ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:53:05,856][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Asistente Hogar 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,857][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,859][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_SEC_M2MF_ON-OFF-NET]
+[2015Mar06 14:53:05,860][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Habla con Todos ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,861][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_ON-NET]
+[2015Mar06 14:53:05,863][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Todos 412 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:53:05,864][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,865][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.20 ,balanceType:1 ,resultingType:SMS]
+[2015Mar06 14:53:05,867][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,868][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 250MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,869][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,871][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 1GB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,872][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,873][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 3GB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,874][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_OFF-NET]
+[2015Mar06 14:53:05,876][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Habla con Otros 100 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:53:05,877][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SEC_M2MF_OFF-NET]
+[2015Mar06 14:53:05,878][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Habla con Otros 50 ,balanceType:2 ,resultingType:SECONDS]
+[2015Mar06 14:53:05,880][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,881][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 500MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,882][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,884][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 100MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,885][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,886][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 550MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,888][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,889][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 750MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,890][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Mar06 14:53:05,892][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Navega Full 1250MB ,balanceType:3 ,resultingType:KB]
+[2015Mar06 14:53:05,893][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][getOfferDefinitions:63]
+[2015Mar06 14:53:05,894][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ newOfferFilterByType:1]
+[2015Mar06 14:53:05,896][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ agrupacion de filtros:2]
+[2015Mar06 14:53:05,897][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,898][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,899][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindaito ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,901][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,902][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,903][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindate 30.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,905][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,906][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,907][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Guindate 60.000 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,909][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,910][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_MMS]
+[2015Mar06 14:53:05,911][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Mix 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,913][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,914][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:F_SEC_M2MF_ON-NET]
+[2015Mar06 14:53:05,915][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Xcribe Full Bs.30 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,916][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Asistente Hogar 412 ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,918][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_SMS]
+[2015Mar06 14:53:05,919][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType-BalanceName[ 1]:NF_SEC_M2MF_ON-OFF-NET]
+[2015Mar06 14:53:05,920][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug OfferList.java:43][ _M generateType- offer:Habla con Todos ,balanceType:5 ,resultingType:PACKAGE]
+[2015Mar06 14:53:05,922][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Saldo del GSM:300.0]
+[2015Mar06 14:53:05,923][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][orderedOfferList.size():7]
+[2015Mar06 14:53:05,924][DEBUG][RTBS_ILOAS-584122592444-1425669785349][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Mar06 14:53:05,926][DEBUG][RTBS_ILOAS-584122592444-1425669785349][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet?]
+[2015Mar06 14:53:05,927][DEBUG][RTBS_ILOAS-584122592444-1425669785349][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584122592444</msisdn>
+	<ProductOffering>
+		<productType>Servicio</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2015Mar06 14:53:08,176][DEBUG][RTBS_ILOAS-584122592444-1425669785349][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2015Mar06 14:53:08,231][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindaito y Guindaito]
+[2015Mar06 14:53:08,232][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:17.1999968]
+[2015Mar06 14:53:08,233][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindaito]
+[2015Mar06 14:53:08,235][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindate 30.000 y Guindate 30.000]
+[2015Mar06 14:53:08,236][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:56.399996800000004]
+[2015Mar06 14:53:08,237][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindate 30.000]
+[2015Mar06 14:53:08,238][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Guindate 60.000 y Guindate 60.000]
+[2015Mar06 14:53:08,240][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:88.0000016]
+[2015Mar06 14:53:08,241][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Guindate 60.000]
+[2015Mar06 14:53:08,242][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Xcribe Full Bs.30 y Xcribe Full Bs.30]
+[2015Mar06 14:53:08,243][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:4.0000016]
+[2015Mar06 14:53:08,245][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Xcribe Full Bs.30]
+[2015Mar06 14:53:08,246][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Asistente Hogar 412 y Asistente Hogar 412]
+[2015Mar06 14:53:08,247][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:2.4000032000000004]
+[2015Mar06 14:53:08,248][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Asistente Hogar 412]
+[2015Mar06 14:53:08,250][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Asistente Hogar 412 y Asistente Hogar 412]
+[2015Mar06 14:53:08,251][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:2.4000032000000004]
+[2015Mar06 14:53:08,252][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Asistente Hogar 412]
+[2015Mar06 14:53:08,253][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Habla con Todos y Habla con Todos]
+[2015Mar06 14:53:08,255][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Precio del offer prorrateado:22.0000032]
+[2015Mar06 14:53:08,256][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][Offer disponible segun el saldo:Habla con Todos]
+[2015Mar06 14:53:08,261][DEBUG][RTBS_ILOAS-584122592444-1425669785349][<init> ByChargeOfferComparator.java:19][_E  - ByChargeOfferComparator- periodicChargeList:{RB SP PLUS 450 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e15a3949, RB SP PLUS 1500=com.comverse_in.prepaid.ccws.PeriodicCharge@536b24f1, RB SP50=com.comverse_in.prepaid.ccws.PeriodicCharge@3f4f3083, RB Xcribe Bs.15Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@bbd10fc8, P_Moderado 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c7043f1, RB Navega 750BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b4bbcc76, SRB Promo 0 BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6401074a, RB BB 100MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@625cc991, RB Navega 750BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b273a176, RB Navega Full I ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dc138299, RB Xcribe Bs.15=com.comverse_in.prepaid.ccws.PeriodicCharge@2cb1331a, RB SP PLUS 850 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9f4d87d1, RBXcribeBs.20FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@fd1aef58, RB Habla Sin Parar=com.comverse_in.prepaid.ccws.PeriodicCharge@e80cebfe, RB SP Ilimitado N=com.comverse_in.prepaid.ccws.PeriodicCharge@4991489d, RB Navega550MBCorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@df7fe64c, RB Navega 3.2GB=com.comverse_in.prepaid.ccws.PeriodicCharge@6acdd73d, RB BB PIN 50MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eb30e07e, RB Internet Movil ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a35375bf, RB Mix 412=com.comverse_in.prepaid.ccws.PeriodicCharge@f67101ac, RB SMART 500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@edda33a7, RB Navega 1.2GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e79b33c4, RB Roaming VIP ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d8b8d022, RB Xcribe Bs.20ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f223df8, RB BAM3G Frecuente=com.comverse_in.prepaid.ccws.PeriodicCharge@566a1b49, RB iPhone ModeradoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eb29681, RB Gremial ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f095f136, RB iPhone AvanzadoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b248ba8a, RB BAM3G Avanzado=com.comverse_in.prepaid.ccws.PeriodicCharge@43f4fecd, RB SP Distribuidor=com.comverse_in.prepaid.ccws.PeriodicCharge@f65b6516, RB Navega 3GB CorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aba7a913, RB N-W Basica LDN ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@38832248, RB Xcribe ilim=com.comverse_in.prepaid.ccws.PeriodicCharge@48ba5d20, RB Navega Full I=com.comverse_in.prepaid.ccws.PeriodicCharge@7e42939b, RB Ubicados 412=com.comverse_in.prepaid.ccws.PeriodicCharge@ac4b6615, RB Habla Sin PararZF=com.comverse_in.prepaid.ccws.PeriodicCharge@34c886ae, RB BAM3G Eventual=com.comverse_in.prepaid.ccws.PeriodicCharge@7b3dbe33, SRB Promo 0 Fija ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7bd8fc96, RB Ubicados 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cab2c625, RB BB 3GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@42ea9c91, RB NavegaFull500MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dcd6240b, RB BAM 550 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@be37a963, RB Navega 3GB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@4a179689, RB BB 250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@728a7f90, SRB Promo 0 Movil=com.comverse_in.prepaid.ccws.PeriodicCharge@d19e47e0, SRB Promo 0 Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@812b2c42, RB Rumba 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6f09810e, RB BB PIN 250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@150eb6f4, RB SP100 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@80236279, RB SP Ilim N Min ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@211b8de, RB BB BES 1GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9f03ae57, RB BB 500MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a16e6089, RB SP Ilimitado N ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@1d8dc31b, RB BB BES 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@61e47007, RB SP Ilim N Min=com.comverse_in.prepaid.ccws.PeriodicCharge@afe7be0e, RB Nexo 2=com.comverse_in.prepaid.ccws.PeriodicCharge@7f218f24, RB Todos 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2c5be4d8, RB BAM3G 10GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b58ce941, RB BAM3G ModeradoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bb03cddd, RB SP3000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7c933ab4, RB BB PIN 50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@39ab5254, RB BAM3G AvanzadoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f38fd2f5, RB iPhone Moderado=com.comverse_in.prepaid.ccws.PeriodicCharge@f4879bdd, RB BAM 750=com.comverse_in.prepaid.ccws.PeriodicCharge@4f5623bf, RB BAM 1250=com.comverse_in.prepaid.ccws.PeriodicCharge@c3819b19, RB Nokia MessagingZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ba560a1b, RB Navega Full 5MB=com.comverse_in.prepaid.ccws.PeriodicCharge@abac09fd, RB BB 3GB=com.comverse_in.prepaid.ccws.PeriodicCharge@4394705b, P_Avanzado 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6f88811, RB SP3000=com.comverse_in.prepaid.ccws.PeriodicCharge@4bee4ea2, RB BB Basico=com.comverse_in.prepaid.ccws.PeriodicCharge@67e380ba, RBXcribeBs.30FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2651087, RB Xcribe Bs.30ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@44aaee27, RB Navega 250BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@44277a89, RB BAM 550=com.comverse_in.prepaid.ccws.PeriodicCharge@8078fe4b, RB Navega 1250BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c5bce84a, RB BB 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@936647c7, RB Fijo 412=com.comverse_in.prepaid.ccws.PeriodicCharge@b7029910, RB Xcribe Bs.15ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@2afa6cfc, RB Navega 550BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ba2101b6, RB BB 50MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@de066348, RB BAM3G Eventual ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f430007b, RB Navega550MBCorp=com.comverse_in.prepaid.ccws.PeriodicCharge@679b766, RB SP Ilimitado ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aa183418, RB Asistente 412 H=com.comverse_in.prepaid.ccws.PeriodicCharge@6f5c57c5, RB BB 50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@6c2ac432, RB SP300=com.comverse_in.prepaid.ccws.PeriodicCharge@61800196, RB iPhone EventualZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8693e99b, RB SP100=com.comverse_in.prepaid.ccws.PeriodicCharge@e2c53fe8, RB Music Ton ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@95fe958b, RB Navega Full50MB=com.comverse_in.prepaid.ccws.PeriodicCharge@40594f53, RB SMART 1000=com.comverse_in.prepaid.ccws.PeriodicCharge@daa62750, P_Experto 50=com.comverse_in.prepaid.ccws.PeriodicCharge@70903747, RB SMART 1000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ebfca0d6, RB Internet 1.5 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@47041a00, RB BAM3G Moderado=com.comverse_in.prepaid.ccws.PeriodicCharge@7e47fea7, RB Cobertura ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8a64cc1b, RB SP200 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8e1fa094, RB SP PLUS 1500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@99612e05, RB Navega 550BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b12e8436, RB Todos 412 Min ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@796d1afd, RB NavegaFull250MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ceeaa147, RB Empresa 87000=com.comverse_in.prepaid.ccws.PeriodicCharge@7394fb4d, RB Rumba 412=com.comverse_in.prepaid.ccws.PeriodicCharge@721a8376, RB Empresa 48000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d69d801b, RB BB 250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@c96cecea, RB BAM3G FrecuenteZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a0c5d493, RB HablaOtros100=com.comverse_in.prepaid.ccws.PeriodicCharge@4e8389c2, RB SP600 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bf6662ba, RB Navega Full250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@4be7e24b, RB Nexo 2 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d85293aa, RB Guindate 60.000=com.comverse_in.prepaid.ccws.PeriodicCharge@3d20c073, P_Moderado 50=com.comverse_in.prepaid.ccws.PeriodicCharge@50840ca7, RB Navega 550MB=com.comverse_in.prepaid.ccws.PeriodicCharge@2a7b1262, P_Experto 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a27cfb11, RB Mix 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ecda9a3e, RB Navega Full 1GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cddb3219, RBXcribeBs.15FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@5a2fd85c, SRB Promo 0 BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@2ba3e0e, RB Navega 100BAM ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a08e4faf, RB Navega Full50MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6a6959df, RB Empresa 18000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@70380539, RB BAM3G ExpertoZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aaf1c753, RB Music Ton=com.comverse_in.prepaid.ccws.PeriodicCharge@a971a155, RB BB 500MB=com.comverse_in.prepaid.ccws.PeriodicCharge@397aee43, RB 30 Min LDI Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@41820571, RB Navega 100MB=com.comverse_in.prepaid.ccws.PeriodicCharge@ecf1d148, RB Navega 750MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@664853ca, RB Navega 1250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@e5d1d19, RB Gremial=com.comverse_in.prepaid.ccws.PeriodicCharge@c6734638, RB Navega 1250MB=com.comverse_in.prepaid.ccws.PeriodicCharge@ce6cf913, RB Navega 1.2GB=com.comverse_in.prepaid.ccws.PeriodicCharge@828809da, RB Navega 1GB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@657d66c4, RB BAM3G Experto=com.comverse_in.prepaid.ccws.PeriodicCharge@c11baf49, RB 30 Min LDI FijaZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6bb8c205, RB BB 1GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8be92085, P_Eventual 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@16619591, RB BB Ilimitado ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@a2588263, RB Navega Full 500MB=com.comverse_in.prepaid.ccws.PeriodicCharge@d129e25d, RB Xcribe Bs.20Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@a2d4e3ca, RB BAM 750 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@93e8224f, RB BB Plan IlimZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b18f10c2, RB SP PLUS 850=com.comverse_in.prepaid.ccws.PeriodicCharge@4b5a1d7d, RB Empresa 18000=com.comverse_in.prepaid.ccws.PeriodicCharge@8e000475, SRB Promo 0 Movil ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@7f13d438, RB SP50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@1951c1eb, P_Frecuente 50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@59bbba31, RB BB 100MB=com.comverse_in.prepaid.ccws.PeriodicCharge@3902023b, Prueba Cache=com.comverse_in.prepaid.ccws.PeriodicCharge@4a982b1c, RB BB Basico ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@b37ecccc, RB Empresa 87000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@998c9971, pruebas=com.comverse_in.prepaid.ccws.PeriodicCharge@1e8cc244, RB BAM 2000 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8b4a1d20, RB Xcribe ilim ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@dcc5f232, RB Navega 250BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@67600683, RB Navega Full 5MBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@eda09641, RB SMART 1500 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@904cd129, RB SP PLUS 450=com.comverse_in.prepaid.ccws.PeriodicCharge@9b0d75e5, RB Guindaito ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@bf482f61, RB Nokia Messaging=com.comverse_in.prepaid.ccws.PeriodicCharge@c0ab0d1f, RB Fijo 412 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@145650, RB Navega 3.2GB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@885e42bb, RB SP300 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@c10952fa, RB 30 Min LDI=com.comverse_in.prepaid.ccws.PeriodicCharge@a9b7b60f, RB Guindate 30.000=com.comverse_in.prepaid.ccws.PeriodicCharge@d3de9b21, RB Roaming VIP=com.comverse_in.prepaid.ccws.PeriodicCharge@a98e2564, RB Todos 412 Min=com.comverse_in.prepaid.ccws.PeriodicCharge@793eaf85, RB Navega 1250BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@e4e96820, RB 30 Min LDI ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@86f9753d, RB Cobertura=com.comverse_in.prepaid.ccws.PeriodicCharge@46a6002b, RB SP Ilimitado=com.comverse_in.prepaid.ccws.PeriodicCharge@dd80c576, RB N-W Basica LDN=com.comverse_in.prepaid.ccws.PeriodicCharge@324fe41a, RB Internet Movil=com.comverse_in.prepaid.ccws.PeriodicCharge@39d0752f, RB BAM 1250 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@8cc711d5, RB Todos 412=com.comverse_in.prepaid.ccws.PeriodicCharge@2d40ab8a, RB Navega Full 3GB=com.comverse_in.prepaid.ccws.PeriodicCharge@e08592bb, RB Navega 100MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@374576b0, RB Navega Full 1GB=com.comverse_in.prepaid.ccws.PeriodicCharge@e06f7fb7, RB Guindaito=com.comverse_in.prepaid.ccws.PeriodicCharge@d6577769, RB HablaOtros100 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@cd39fdca, RB Empresa 48000=com.comverse_in.prepaid.ccws.PeriodicCharge@8572ff23, RB BB 10 MB=com.comverse_in.prepaid.ccws.PeriodicCharge@9ca7105, RB SP600=com.comverse_in.prepaid.ccws.PeriodicCharge@1bbdfdf4, RB SP1200 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@74372758, RB BB 500MB Corp ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ff231531, RB Asistente412 H ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@38a319fd, RB SP1200=com.comverse_in.prepaid.ccws.PeriodicCharge@10560356, RB Navega 100BAM=com.comverse_in.prepaid.ccws.PeriodicCharge@b1f4b0a9, RB Internet 1.5=com.comverse_in.prepaid.ccws.PeriodicCharge@dfadcb38, RB SMART 1500=com.comverse_in.prepaid.ccws.PeriodicCharge@6de606f7, RB Xcribe Bs.30=com.comverse_in.prepaid.ccws.PeriodicCharge@466008c5, RB BB 10 MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@9c5dc307, RB SP200=com.comverse_in.prepaid.ccws.PeriodicCharge@e6969efa, P_Avanzado 50=com.comverse_in.prepaid.ccws.PeriodicCharge@2eedf807, RB BB Plan Ilim=com.comverse_in.prepaid.ccws.PeriodicCharge@735e9550, RB HablaOtros50 ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d3a463fc, RB Habla con Todos=com.comverse_in.prepaid.ccws.PeriodicCharge@6724b52c, RB BB 500MB Corp=com.comverse_in.prepaid.ccws.PeriodicCharge@524aba9b, RB iPhone Eventual=com.comverse_in.prepaid.ccws.PeriodicCharge@d0d945d5, P_Eventual 50=com.comverse_in.prepaid.ccws.PeriodicCharge@e2eabf07, RB Guindate 60.000ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ace83de1, RB BAM3G 10GB=com.comverse_in.prepaid.ccws.PeriodicCharge@c0269365, P_Frecuente 50=com.comverse_in.prepaid.ccws.PeriodicCharge@1713de67, RB Prom Plan=com.comverse_in.prepaid.ccws.PeriodicCharge@25dabcae, RB BB Ilimitado=com.comverse_in.prepaid.ccws.PeriodicCharge@97a02e5d, RB Navega 550MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@6df5b40a, RB BB PIN 250MB ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d49d6146, RB SMART 500=com.comverse_in.prepaid.ccws.PeriodicCharge@ad0d39, RB Xcribe Bs.30Fija=com.comverse_in.prepaid.ccws.PeriodicCharge@dbc65c79, RB BAM 2000=com.comverse_in.prepaid.ccws.PeriodicCharge@1c6eb5ab, RB Navega 1GB CorpZF=com.comverse_in.prepaid.ccws.PeriodicCharge@aad34712, RB Habla con TodosZF=com.comverse_in.prepaid.ccws.PeriodicCharge@f01ff0ba, RB HablaOtros50=com.comverse_in.prepaid.ccws.PeriodicCharge@b6577c30, RB Xcribe Bs.20=com.comverse_in.prepaid.ccws.PeriodicCharge@10d84116, RB iPhone Avanzado=com.comverse_in.prepaid.ccws.PeriodicCharge@bd70d822, RB Guindate 30.000ZF=com.comverse_in.prepaid.ccws.PeriodicCharge@d9a7dbb5, RB Navega 750MB=com.comverse_in.prepaid.ccws.PeriodicCharge@2e085aa2, RB Navega Full 3GBZF=com.comverse_in.prepaid.ccws.PeriodicCharge@ce29941d}]
+[2015Mar06 14:53:08,264][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Guindate 30.000): Guindate 30.000=125.89285 		==> -87.5]
+[2015Mar06 14:53:08,266][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 30.000):Guindate 30.000=125.89285 - ,	offer2(RB Guindate 60.000): Guindate 60.000=196.42857 		==> -70.53572000000001]
+[2015Mar06 14:53:08,267][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Xcribe Bs.30): Xcribe Full Bs.30=26.78571 		==> 5.357140000000001]
+[2015Mar06 14:53:08,269][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 26.78571]
+[2015Mar06 14:53:08,270][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Xcribe Bs.30):Xcribe Full Bs.30=26.78571 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 21.42857]
+[2015Mar06 14:53:08,271][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Mix 412):Mix 412=32.14285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> -16.96429]
+[2015Mar06 14:53:08,273][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 60.000):Guindate 60.000=196.42857 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 191.07143000000002]
+[2015Mar06 14:53:08,274][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Asistente 412 H): Asistente Hogar 412=5.35714 		==> 33.03571]
+[2015Mar06 14:53:08,276][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Xcribe Bs.30): Xcribe Full Bs.30=26.78571 		==> 11.607140000000001]
+[2015Mar06 14:53:08,277][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Mix 412): Mix 412=32.14285 		==> 6.25]
+[2015Mar06 14:53:08,278][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindaito):Guindaito=38.39285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> -10.714289999999998]
+[2015Mar06 14:53:08,280][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug ByChargeOfferComparator.java:24][_M - compare- offer1(RB Guindate 30.000):Guindate 30.000=125.89285 - ,	offer2(RB Habla con Todos): Habla con Todos=49.10714 		==> 76.78571]
+[2015Mar06 14:53:08,281][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ orderedCosList:[com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@f9e78af1, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca]]
+[2015Mar06 14:53:08,283][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][Resultado del Filtro: [com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@f9e78af1]]
+[2015Mar06 14:53:08,284][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][aplicacion de filtros:2388]
+[2015Mar06 14:53:08,286][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][ createdResponse:2]
+[2015Mar06 14:53:08,288][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][ getRtbsIloas :2929 | freeMemory: 1179426792]
+[2015Mar06 14:53:08,289][INFO ][RTBS_ILOAS-584122592444-1425669785349][info RtbsIloas.java:87][ _E [com.comverse_in.prepaid.ccws.Offer@500b549b, com.comverse_in.prepaid.ccws.Offer@dce3c437, com.comverse_in.prepaid.ccws.Offer@765f6604, com.comverse_in.prepaid.ccws.Offer@df9ef142, com.comverse_in.prepaid.ccws.Offer@f9e78af1, com.comverse_in.prepaid.ccws.Offer@b3913732, com.comverse_in.prepaid.ccws.Offer@c2ecd4ca]]
+[2015Mar06 14:53:08,290][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][_E_getRtbsIloas()]
+[2015Mar06 14:53:08,293][DEBUG][RTBS_ILOAS-584122592444-1425669785349][debug RtbsIloas.java:82][_E:<RTBS_ILOAS_OUT xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Offers>
+    <Offer>
+      <offer_name>Asistente Hogar 412</offer_name>
+      <offer_ID>444.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Xcribe Full Bs.30</offer_name>
+      <offer_ID>320.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Mix 412</offer_name>
+      <offer_ID>290.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindaito</offer_name>
+      <offer_ID>282.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Habla con Todos</offer_name>
+      <offer_ID>465.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindate 30.000</offer_name>
+      <offer_ID>287.0</offer_ID>
+    </Offer>
+    <Offer>
+      <offer_name>Guindate 60.000</offer_name>
+      <offer_ID>288.0</offer_ID>
+    </Offer>
+  </Offers>
+  <OperationMessage>
+    <Code>RTBS_ILOAS-OM0001</Code>
+    <Message>Operacion ejecutada de forma exitosa</Message>
+  </OperationMessage>
+</RTBS_ILOAS_OUT>]
+[2015Mar06 15:19:15,580][INFO ][1425671355580][service RtbsIlcas.java:47][INICIO de solicitud ILCAS]
+[2015Mar06 15:19:15,582][INFO ][RTBS_ILCAS--1425671355580][info RtbsIlcas.java:114][ _I execute:<RTBS_ILCAS_IN><Channel>IVR</Channel><System>IVR-VAL0</System><MSISDN>584120263593</MSISDN></RTBS_ILCAS_IN>]
+[2015Mar06 15:19:15,587][DEBUG][RTBS_ILCAS--1425671355580][debug RtbsIlcas.java:109][ _I getRtbsIlcas:]
+[2015Mar06 15:19:15,588][DEBUG][RTBS_ILCAS--1425671355580][debug RtbsIlcas.java:109][ _M getRtbsIlcas: declarated:0]
+[2015Mar06 15:19:15,590][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo channel: IVR]
+[2015Mar06 15:19:15,591][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo system: IVR-VAL0]
+[2015Mar06 15:19:15,593][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][_M getRtbsIlcas: Recibiendo msisdn: 584120263593]
+[2015Mar06 15:19:15,594][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][ _M getRtbsIlcas: createdRequest:6]
+[2015Mar06 15:19:15,595][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Mar06 15:19:15,615][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Mar06 15:19:15,634][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][ _M getRtbsIlcas: CachedCcws:40]
+[2015Mar06 15:19:15,635][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][ _M getRtbsIlcas: SubscribeRetrieve584120263593]
+[2015Mar06 15:19:15,723][ERROR][RTBS_ILCAS-584120263593-1425671355580][<init> CachedCcwsException.java:33][CachedCcwsException - #4006- ERROR in retrieveSubscriberWithIdentityNoHistory ]
+AxisFault
+ faultCode: {http://schemas.xmlsoap.org/soap/envelope/}Client
+ faultSubcode: 
+ faultString: &lt;ErrorCode&gt;4006&lt;/ErrorCode&gt;&lt;ErrorDescription&gt;Subscriber not found&lt;/ErrorDescription&gt;
+ faultActor: 
+ faultNode: 
+ faultDetail: 
+	{}ErrorCode:4006
+	{}ErrorDescription:Subscriber not found
+
+<ErrorCode>4006</ErrorCode><ErrorDescription>Subscriber not found</ErrorDescription>
+	at org.apache.axis.message.SOAPFaultBuilder.createFault(SOAPFaultBuilder.java:222)
+	at org.apache.axis.message.SOAPFaultBuilder.endElement(SOAPFaultBuilder.java:129)
+	at org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1087)
+	at weblogic.apache.xerces.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:585)
+	at weblogic.apache.xerces.impl.XMLNamespaceBinder.handleEndElement(XMLNamespaceBinder.java:898)
+	at weblogic.apache.xerces.impl.XMLNamespaceBinder.endElement(XMLNamespaceBinder.java:644)
+	at weblogic.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1008)
+	at weblogic.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1469)
+	at weblogic.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:329)
+	at weblogic.apache.xerces.parsers.DTDConfiguration.parse(DTDConfiguration.java:525)
+	at weblogic.apache.xerces.parsers.DTDConfiguration.parse(DTDConfiguration.java:581)
+	at weblogic.apache.xerces.parsers.XMLParser.parse(XMLParser.java:152)
+	at weblogic.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1175)
+	at weblogic.xml.jaxp.WebLogicXMLReader.parse(WebLogicXMLReader.java:135)
+	at weblogic.xml.jaxp.RegistryXMLReader.parse(RegistryXMLReader.java:152)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:345)
+	at org.apache.axis.encoding.DeserializationContext.parse(DeserializationContext.java:227)
+	at org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:696)
+	at org.apache.axis.Message.getSOAPEnvelope(Message.java:435)
+	at org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:62)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:206)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.comverse_in.prepaid.ccws.ServiceSoapStub.retrieveSubscriberWithIdentityNoHistory(ServiceSoapStub.java:5681)
+	at la.integra.digitel.ccws.CachedCcws.retrieveSubscriberWithIdentityNoHistory(CachedCcws.java:18)
+	at la.integra.digitel.ivr.rtbsIlcas.RtbsIlcas.getRtbsIlcas(RtbsIlcas.java:232)
+	at la.integra.digitel.ivr.rtbsIlcas.RtbsIlcas.execute(RtbsIlcas.java:162)
+	at servlet.RtbsIlcas.service(RtbsIlcas.java:59)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2015Mar06 15:19:15,731][DEBUG][RTBS_ILCAS-584120263593-1425671355580][debug RtbsIlcas.java:109][ _E execute:<RTBS_ILCAS_OUT xmlns="http://integra.la/digitel/ivr/rtbsIlcas/parameter">
+  <ErrorMessage>
+    <Code>RTBS_ILCAS-OM0003</Code>
+    <Message>La informacion solicitada no ha sido encontrada en la base de datos - la.integra.digitel.ccws.CachedCcwsException: 4006 -  ERROR in retrieveSubscriberWithIdentityNoHistory</Message>
+  </ErrorMessage>
+</RTBS_ILCAS_OUT>]
+[2015Mar06 15:19:15,733][INFO ][RTBS_ILCAS-584120263593-1425671355580][service RtbsIlcas.java:64][FIN de solicitud ILCAS]

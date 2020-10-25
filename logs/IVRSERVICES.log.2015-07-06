@@ -1,0 +1,234 @@
+[2015Jul06 08:59:33,393][INFO ][RTBS_ILOAS--1436189373392][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>IVR</Channel><System>IVR-VAL0</System><MSISDN>584121541781</MSISDN><Offer_Type>KB</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul06 08:59:33,409][DEBUG][RTBS_ILOAS--1436189373392][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584121541781</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 08:59:33,411][DEBUG][RTBS_ILOAS--1436189373392][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584121541781</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 08:59:33,422][DEBUG][RTBS_ILOAS--1436189373392][debug RtbsIloas.java:82][ Inicializando variables locales:9]
+[2015Jul06 08:59:33,424][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Recibiendo channel: IVR]
+[2015Jul06 08:59:33,425][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul06 08:59:33,426][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Recibiendo msisdn: 584121541781]
+[2015Jul06 08:59:33,427][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Recibiendo offerType: KB]
+[2015Jul06 08:59:33,428][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][createdRequest:6]
+[2015Jul06 08:59:33,429][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul06 08:59:33,464][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul06 08:59:33,489][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][CachedCcws:61]
+[2015Jul06 08:59:33,845][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ subscriberCore:500.0]
+[2015Jul06 08:59:33,847][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:358]
+[2015Jul06 08:59:33,848][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul06 08:59:33,849][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 08:59:33,850][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 08:59:33,858][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul06 08:59:33,863][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul06 08:59:33,865][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ getOffersAsStringCollection:17]
+[2015Jul06 08:59:33,866][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Paso 3- cosName: Internet Movil 4G 1.5- subscriberOffers:[]]
+[2015Jul06 08:59:33,867][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul06 08:59:33,868][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ getCache:3]
+[2015Jul06 08:59:33,894][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul06 08:59:33,896][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ getCosByName:28]
+[2015Jul06 08:59:33,897][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 08:59:33,898][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ assignableCompatibles:2]
+[2015Jul06 08:59:33,899][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 08:59:33,901][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 08:59:33,908][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul06 08:59:33,913][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul06 08:59:33,915][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Paso 6- offersNoIVR: [Blackberry 10, Blackberry 10 ZF, Blackberry 50, Blackberry BES 1GB, Blackberry BES 1GB ZF, Blackberry Basico, Blackberry Basico ZF, Blackberry Ilimitado, Blackberry Ilimitado ZF, Mix 412 ZF, Music Ton, Navega Full 50MB, Navega Full 5MB, Navega Full 5MB ZF, Navega Full Ilimitado, Navega Full Ilimitado ZF, Nokia Messaging, Nokia Messaging ZF, Prom Alcance30, Prom Alcance60, Prom Plan 1200, Prom Plan 200, Prom Plan 600, Prom Plan BB50MB, Prom Plan Cobertura, Prueba Ciclo de vida, Roaming VIP, Roaming VIP ZF, Ubica2 412, Ubica2 412 ZF, Xcribe Full 400 Fija, Xcribe Full 400 Fija ZF, Xcribe Full Bs.15, Xcribe Full Bs.F.20 Fija, Xcribe Ilimitado, Xcribe Ilimitado ZF]]
+[2015Jul06 08:59:33,916][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:18]
+[2015Jul06 08:59:33,917][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 08:59:33,919][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Jul06 08:59:33,920][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Restando los servicios que no ofrece el IVR: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 08:59:33,921][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):2]
+[2015Jul06 08:59:33,922][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,924][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,925][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,926][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,928][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,929][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,930][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][getOfferDefinitions:9]
+[2015Jul06 08:59:33,932][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ newOfferFilterByType:2]
+[2015Jul06 08:59:33,933][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][ agrupacion de filtros:1]
+[2015Jul06 08:59:33,934][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,935][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,937][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,938][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,939][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 08:59:33,941][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 08:59:33,942][INFO ][RTBS_ILOAS-584121541781-1436189373392][info RtbsIloas.java:87][Saldo del GSM:500.0]
+[2015Jul06 08:59:33,945][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][orderedOfferList.size():3]
+[2015Jul06 08:59:33,947][DEBUG][RTBS_ILOAS-584121541781-1436189373392][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Jul06 08:59:33,949][DEBUG][RTBS_ILOAS-584121541781-1436189373392][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet?]
+[2015Jul06 08:59:33,950][DEBUG][RTBS_ILOAS-584121541781-1436189373392][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584121541781</msisdn>
+	<ProductOffering>
+		<productType>Servicio</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2015Jul06 08:59:36,162][DEBUG][RTBS_ILOAS-584121541781-1436189373392][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2015Jul06 08:59:36,216][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 550MB y Navega 4G LTE 550MB]
+[2015Jul06 08:59:36,217][INFO ][RTBS_ILOAS-584121541781-1436189373392][info RtbsIloas.java:87][Precio del offer prorrateado:173.22667040000002]
+[2015Jul06 08:59:36,218][INFO ][RTBS_ILOAS-584121541781-1436189373392][info RtbsIloas.java:87][Offer disponible segun el saldo:Navega 4G LTE 550MB]
+[2015Jul06 08:59:36,220][DEBUG][RTBS_ILOAS-584121541781-1436189373392][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 750 MB y Navega 4G LTE 750 MB]
+[2015Jul06 09:27:08,555][INFO ][RTBS_ILOAS--1436191028555][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>IVR</Channel><System>IVR-VAL0</System><MSISDN>584127518805</MSISDN><Offer_Type>KB</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul06 09:27:08,558][DEBUG][RTBS_ILOAS--1436191028555][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518805</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 09:27:08,560][DEBUG][RTBS_ILOAS--1436191028555][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584127518805</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 09:27:08,562][DEBUG][RTBS_ILOAS--1436191028555][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Jul06 09:27:08,564][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Recibiendo channel: IVR]
+[2015Jul06 09:27:08,565][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul06 09:27:08,566][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Recibiendo msisdn: 584127518805]
+[2015Jul06 09:27:08,567][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Recibiendo offerType: KB]
+[2015Jul06 09:27:08,569][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][createdRequest:7]
+[2015Jul06 09:27:08,570][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul06 09:27:08,587][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul06 09:27:08,609][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][CachedCcws:40]
+[2015Jul06 09:27:08,916][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ subscriberCore:2000.0]
+[2015Jul06 09:27:08,917][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:308]
+[2015Jul06 09:27:08,918][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul06 09:27:08,920][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 09:27:08,921][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 09:27:08,929][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul06 09:27:08,934][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul06 09:27:08,935][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ getOffersAsStringCollection:17]
+[2015Jul06 09:27:08,936][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Paso 3- cosName: Internet Movil 4G 1.5- subscriberOffers:[]]
+[2015Jul06 09:27:08,938][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul06 09:27:08,939][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ getCache:4]
+[2015Jul06 09:27:08,965][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul06 09:27:08,967][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ getCosByName:28]
+[2015Jul06 09:27:08,968][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 09:27:08,969][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ assignableCompatibles:2]
+[2015Jul06 09:27:08,970][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 09:27:08,972][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 09:27:08,979][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul06 09:27:08,985][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul06 09:27:08,986][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Paso 6- offersNoIVR: [Blackberry 10, Blackberry 10 ZF, Blackberry 50, Blackberry BES 1GB, Blackberry BES 1GB ZF, Blackberry Basico, Blackberry Basico ZF, Blackberry Ilimitado, Blackberry Ilimitado ZF, Mix 412 ZF, Music Ton, Navega Full 50MB, Navega Full 5MB, Navega Full 5MB ZF, Navega Full Ilimitado, Navega Full Ilimitado ZF, Nokia Messaging, Nokia Messaging ZF, Prom Alcance30, Prom Alcance60, Prom Plan 1200, Prom Plan 200, Prom Plan 600, Prom Plan BB50MB, Prom Plan Cobertura, Prueba Ciclo de vida, Roaming VIP, Roaming VIP ZF, Ubica2 412, Ubica2 412 ZF, Xcribe Full 400 Fija, Xcribe Full 400 Fija ZF, Xcribe Full Bs.15, Xcribe Full Bs.F.20 Fija, Xcribe Ilimitado, Xcribe Ilimitado ZF]]
+[2015Jul06 09:27:08,988][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:19]
+[2015Jul06 09:27:08,989][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 09:27:08,990][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):2]
+[2015Jul06 09:27:08,991][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Restando los servicios que no ofrece el IVR: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 09:27:08,993][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):3]
+[2015Jul06 09:27:08,994][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:08,995][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:08,997][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:08,998][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:08,999][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:09,001][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:09,002][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][getOfferDefinitions:9]
+[2015Jul06 09:27:09,003][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ newOfferFilterByType:1]
+[2015Jul06 09:27:09,004][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][ agrupacion de filtros:1]
+[2015Jul06 09:27:09,006][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:09,007][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:09,008][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:09,010][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:09,011][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 09:27:09,012][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 09:27:09,014][INFO ][RTBS_ILOAS-584127518805-1436191028555][info RtbsIloas.java:87][Saldo del GSM:2000.0]
+[2015Jul06 09:27:09,015][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][orderedOfferList.size():3]
+[2015Jul06 09:27:09,016][DEBUG][RTBS_ILOAS-584127518805-1436191028555][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Jul06 09:27:09,018][DEBUG][RTBS_ILOAS-584127518805-1436191028555][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet?]
+[2015Jul06 09:27:09,019][DEBUG][RTBS_ILOAS-584127518805-1436191028555][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584127518805</msisdn>
+	<ProductOffering>
+		<productType>Servicio</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2015Jul06 09:27:11,138][DEBUG][RTBS_ILOAS-584127518805-1436191028555][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2015Jul06 09:27:11,190][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 550MB y Navega 4G LTE 550MB]
+[2015Jul06 09:27:11,192][INFO ][RTBS_ILOAS-584127518805-1436191028555][info RtbsIloas.java:87][Precio del offer prorrateado:47.786670400000006]
+[2015Jul06 09:27:11,193][INFO ][RTBS_ILOAS-584127518805-1436191028555][info RtbsIloas.java:87][Offer disponible segun el saldo:Navega 4G LTE 550MB]
+[2015Jul06 09:27:11,194][DEBUG][RTBS_ILOAS-584127518805-1436191028555][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 750 MB y Navega 4G LTE 750 MB]
+[2015Jul06 10:17:31,745][INFO ][RTBS_ILOAS--1436194051745][info RtbsIloas.java:87][_I_getRtbsIloas String (<RTBS_ILOAS_IN><Channel>IVR</Channel><System>IVR-VAL0</System><MSISDN>584121541781</MSISDN><Offer_Type>KB</Offer_Type></RTBS_ILOAS_IN>)]
+[2015Jul06 10:17:31,751][DEBUG][RTBS_ILOAS--1436194051745][debug RtbsIloas.java:82][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584121541781</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 10:17:31,753][DEBUG][RTBS_ILOAS--1436194051745][getRtbsIloas RtbsIloas.java:126][getRtbsIloas( <RTBS_ILOAS_IN xmlns="http://integra.la/digitel/ivr/rtbsIloas/parameter">
+  <Channel>IVR</Channel>
+  <System>IVR-VAL0</System>
+  <MSISDN>584121541781</MSISDN>
+  <Offer_Type>KB</Offer_Type>
+</RTBS_ILOAS_IN> )]
+[2015Jul06 10:17:31,755][DEBUG][RTBS_ILOAS--1436194051745][debug RtbsIloas.java:82][ Inicializando variables locales:1]
+[2015Jul06 10:17:31,757][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Recibiendo channel: IVR]
+[2015Jul06 10:17:31,758][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Recibiendo system: IVR-VAL0]
+[2015Jul06 10:17:31,759][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Recibiendo msisdn: 584121541781]
+[2015Jul06 10:17:31,760][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Recibiendo offerType: KB]
+[2015Jul06 10:17:31,762][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][createdRequest:7]
+[2015Jul06 10:17:31,763][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M getCcwsConnectionCache]
+[2015Jul06 10:17:31,780][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M getCcwsConnectionOther]
+[2015Jul06 10:17:31,795][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][CachedCcws:33]
+[2015Jul06 10:17:32,097][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ subscriberCore:500.0]
+[2015Jul06 10:17:32,098][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][retrieveSubscriberWithIdentityNoHistory:303]
+[2015Jul06 10:17:32,099][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ getCOSName:1]
+[2015Jul06 10:17:32,101][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 10:17:32,102][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 10:17:32,110][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsSpcr.java:44][ _I getDBRefillResaleOffers:]
+[2015Jul06 10:17:32,115][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsSpcr.java:44][ _E getDBRefillResaleOffers:]
+[2015Jul06 10:17:32,116][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ getOffersAsStringCollection:17]
+[2015Jul06 10:17:32,118][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Paso 3- cosName: Internet Movil 4G 1.5- subscriberOffers:[]]
+[2015Jul06 10:17:32,119][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Servicios sin Refill: []]
+[2015Jul06 10:17:32,120][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ getCache:4]
+[2015Jul06 10:17:32,146][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Paso 4- ClientCache: com.comverse_in.prepaid.ccws.ClientCache@c7cb0eee]
+[2015Jul06 10:17:32,147][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ getCosByName:27]
+[2015Jul06 10:17:32,149][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Paso 5- assignableCompatibles: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 10:17:32,150][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ assignableCompatibles:3]
+[2015Jul06 10:17:32,151][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M jndiConnection]
+[2015Jul06 10:17:32,152][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug DispatcherConnection.java:55][ _M getJndiConnection]
+[2015Jul06 10:17:32,160][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsSpcr.java:44][ _I getDBUnAvailableOfferByChannel:]
+[2015Jul06 10:17:32,166][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsSpcr.java:44][ _E getDBUnAvailableOfferByChannel:]
+[2015Jul06 10:17:32,167][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Paso 6- offersNoIVR: [Blackberry 10, Blackberry 10 ZF, Blackberry 50, Blackberry BES 1GB, Blackberry BES 1GB ZF, Blackberry Basico, Blackberry Basico ZF, Blackberry Ilimitado, Blackberry Ilimitado ZF, Mix 412 ZF, Music Ton, Navega Full 50MB, Navega Full 5MB, Navega Full 5MB ZF, Navega Full Ilimitado, Navega Full Ilimitado ZF, Nokia Messaging, Nokia Messaging ZF, Prom Alcance30, Prom Alcance60, Prom Plan 1200, Prom Plan 200, Prom Plan 600, Prom Plan BB50MB, Prom Plan Cobertura, Prueba Ciclo de vida, Roaming VIP, Roaming VIP ZF, Ubica2 412, Ubica2 412 ZF, Xcribe Full 400 Fija, Xcribe Full 400 Fija ZF, Xcribe Full Bs.15, Xcribe Full Bs.F.20 Fija, Xcribe Ilimitado, Xcribe Ilimitado ZF]]
+[2015Jul06 10:17:32,169][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ getUnAvailableOfferByChannel:19]
+[2015Jul06 10:17:32,170][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Restando los servicios que ya posee el cliente: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 10:17:32,171][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):2]
+[2015Jul06 10:17:32,172][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Restando los servicios que no ofrece el IVR: [Navega 4G LTE 550MB, Navega 4G LTE 1250 MB, Navega 4G LTE 750 MB]]
+[2015Jul06 10:17:32,173][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ assignableCompatibles.removeAll(subscriberOffers):2]
+[2015Jul06 10:17:32,175][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,176][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,177][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,179][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,180][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,181][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,183][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][getOfferDefinitions:10]
+[2015Jul06 10:17:32,184][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ newOfferFilterByType:1]
+[2015Jul06 10:17:32,185][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][ agrupacion de filtros:1]
+[2015Jul06 10:17:32,186][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,188][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 550MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,189][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,190][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 750 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,191][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType-BalanceName[ 0]:NF_KB]
+[2015Jul06 10:17:32,193][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug OfferList.java:43][ _M generateType- offer:Navega 4G LTE 1250 MB ,balanceType:3 ,resultingType:KB]
+[2015Jul06 10:17:32,194][INFO ][RTBS_ILOAS-584121541781-1436194051745][info RtbsIloas.java:87][Saldo del GSM:500.0]
+[2015Jul06 10:17:32,196][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][orderedOfferList.size():3]
+[2015Jul06 10:17:32,197][DEBUG][RTBS_ILOAS-584121541781-1436194051745][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Jul06 10:17:32,199][DEBUG][RTBS_ILOAS-584121541781-1436194051745][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:126][endPointURL: http://CFGLOBD05:8001/ProductOfferingProratedBillingLookupFacade/ProductOfferingProratedBillingLookupFacadeServlet?]
+[2015Jul06 10:17:32,200][DEBUG][RTBS_ILOAS-584121541781-1436194051745][execute ProductOfferingProrateBillingLoookupFacadeDelegator.java:127][soapBody: <ProductOfferingProratedBillingLookupFacadeRequest>
+	<channel>IVR</channel>
+	<msisdn>584121541781</msisdn>
+	<ProductOffering>
+		<productType>Servicio</productType>
+	</ProductOffering>
+</ProductOfferingProratedBillingLookupFacadeRequest>]
+[2015Jul06 10:17:34,245][DEBUG][RTBS_ILOAS-584121541781-1436194051745][buildRequest ProductOfferingProrateBillingLoookupFacadeDelegator.java:174][Parser del response del WS ProductOfferingProratedBillingLookupFacade]
+[2015Jul06 10:17:34,298][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 550MB y Navega 4G LTE 550MB]
+[2015Jul06 10:17:34,299][INFO ][RTBS_ILOAS-584121541781-1436194051745][info RtbsIloas.java:87][Precio del offer prorrateado:173.22667040000002]
+[2015Jul06 10:17:34,301][INFO ][RTBS_ILOAS-584121541781-1436194051745][info RtbsIloas.java:87][Offer disponible segun el saldo:Navega 4G LTE 550MB]
+[2015Jul06 10:17:34,302][DEBUG][RTBS_ILOAS-584121541781-1436194051745][debug RtbsIloas.java:82][Servicio de la lista que coincide con el prorated: Navega 4G LTE 750 MB y Navega 4G LTE 750 MB]
